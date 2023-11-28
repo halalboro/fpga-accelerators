@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:design xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>xilinx.com</spirit:vendor>
+  <spirit:library>xci</spirit:library>
+  <spirit:name>unknown</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:componentInstances>
+    <spirit:componentInstance>
+      <spirit:instanceName>bd_fb21_rx_0</spirit:instanceName>
+      <spirit:componentRef spirit:vendor="xilinx.com" spirit:library="ip" spirit:name="mipi_csi2_rx_ctrl" spirit:version="1.0"/>
+      <spirit:configurableElementValues>
+        <spirit:configurableElementValue spirit:referenceId="ADDRBLOCK_BASE_ADDRESS.S_AXI.reg0">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="ADDRBLOCK_RANGE.S_AXI.reg0">4294967296</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="ADDRBLOCK_WIDTH.S_AXI.reg0">32</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.ASSOCIATED_BUSIF"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.ASSOCIATED_PORT"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.ASSOCIATED_RESET"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.CLK_DOMAIN">bd_fb21_phy_0_rxbyteclkhs</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.FREQ_HZ">112000000.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.FREQ_TOLERANCE_HZ">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.PHASE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.ASSOCIATED_BUSIF"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.ASSOCIATED_PORT"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.ASSOCIATED_RESET"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.CLK_DOMAIN">bd_fb21_phy_0_rxbyteclkhs</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.FREQ_HZ">112000000.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.FREQ_TOLERANCE_HZ">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.PHASE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.ASSOCIATED_BUSIF"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.ASSOCIATED_PORT"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.ASSOCIATED_RESET"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.CLK_DOMAIN">bd_fb21_phy_0_rxbyteclkhs</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.FREQ_HZ">112000000.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.FREQ_TOLERANCE_HZ">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.PHASE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.ASSOCIATED_BUSIF"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.ASSOCIATED_PORT"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.ASSOCIATED_RESET"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.CLK_DOMAIN">bd_fb21_phy_0_rxbyteclkhs</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.FREQ_HZ">112000000.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.FREQ_TOLERANCE_HZ">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.PHASE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.CLK_DOMAIN">kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_clk_200M</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.FREQ_HZ">299997000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.HAS_TKEEP">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.HAS_TLAST">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.HAS_TREADY">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.HAS_TSTRB">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.LAYERED_METADATA">undef</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.PHASE">0.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.TDATA_NUM_BYTES">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.TDEST_WIDTH">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.TID_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS.TUSER_WIDTH">96</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.CLK_DOMAIN"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.FREQ_HZ">100000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.HAS_TKEEP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.HAS_TLAST">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.HAS_TREADY">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.HAS_TSTRB">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.LAYERED_METADATA">undef</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.PHASE">0.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.TDATA_NUM_BYTES">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.TDEST_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.TID_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI.TUSER_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.ASSOCIATED_PORT"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.ASSOCIATED_RESET"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.CLK_DOMAIN">kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_clk_200M</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.FREQ_HZ">299997000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.FREQ_TOLERANCE_HZ">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.PHASE">0.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_SIGNAL_CLOCK.ASSOCIATED_PORT"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_SIGNAL_CLOCK.CLK_DOMAIN">kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_clk_200M</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_SIGNAL_CLOCK.FREQ_HZ">299997000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_SIGNAL_CLOCK.FREQ_TOLERANCE_HZ">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_SIGNAL_CLOCK.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_SIGNAL_CLOCK.PHASE">0.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.M_AXIS_SIGNAL_RESET.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SIGNAL_INTERRUPT.PortWidth">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.ADDR_WIDTH">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.ARUSER_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.AWUSER_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.BUSER_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.CLK_DOMAIN">kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_clk_200M</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.DATA_WIDTH">32</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.FREQ_HZ">99999000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_BRESP">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_BURST">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_CACHE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_LOCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_PROT">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_QOS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_REGION">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_RRESP">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_WSTRB">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.ID_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.MAX_BURST_LENGTH">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.NUM_READ_OUTSTANDING">2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.NUM_READ_THREADS">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.NUM_WRITE_OUTSTANDING">2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.NUM_WRITE_THREADS">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.PHASE">0.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.PROTOCOL">AXI4LITE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.READ_WRITE_MODE">READ_WRITE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.RUSER_BITS_PER_BYTE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.RUSER_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.SUPPORTS_NARROW_BURST">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.WUSER_BITS_PER_BYTE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI.WUSER_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_SIGNAL_CLOCK.ASSOCIATED_PORT"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_SIGNAL_CLOCK.CLK_DOMAIN">kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_clk_200M</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_SIGNAL_CLOCK.FREQ_HZ">99999000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_SIGNAL_CLOCK.FREQ_TOLERANCE_HZ">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_SIGNAL_CLOCK.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_SIGNAL_CLOCK.PHASE">0.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.S_AXI_SIGNAL_RESET.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.AXIS_FIFO_DCNT_WIDTH">12</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.AXIS_FIFO_DEPTH">4096</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.AXIS_TDATA_WIDTH">64</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.AXIS_TDEST_WIDTH">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.AXIS_TUSER_WIDTH">96</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CMN_INC_VFB">true</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_EN_VC_SUPPORT">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_FIXED_VC">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_INV_SHUTDOWN">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_LANES">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_OFFLOAD_NONIMAGE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_0">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_1">2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_10">11</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_11">12</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_12">13</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_13">14</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_14">15</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_2">3</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_3">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_4">5</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_5">6</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_6">7</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_7">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_8">9</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.CSI_VC_OFF_9">10</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_CSI2RX_DBG">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_CSI_FILTER_USERDATATYPE">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_CSI_OPT1_REGS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_CSI_OPT2_CRC">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_CSI_OPT3_FIXEDLANES">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_DISABLE_LITE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_EN_CSI_V2_0">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_EN_VCX">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_FAMILY">zynquplus</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_HS_LINE_RATE">896</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_MIPI_SLV_INT">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_RCVE_DESKEW_SEQ">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_SPRT_ISP_BRIDGE">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_S_AXI_ADDR_WIDTH">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_S_AXI_DATA_WIDTH">32</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.AXIS_FIFO_DCNT_WIDTH">12</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.AXIS_FIFO_DEPTH">4096</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.AXIS_TDATA_WIDTH">64</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.AXIS_TDEST_WIDTH">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.AXIS_TUSER_WIDTH">96</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CMN_INC_VFB">true</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CMN_PROJ_FAMILY">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CSI_EN_VC_SUPPORT">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CSI_FIXED_VC">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CSI_INV_SHUTDOWN">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CSI_LANES">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CSI_OFFLOAD_NONIMAGE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_CSI2RX_DBG">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_CSI_FILTER_USERDATATYPE">true</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_CSI_OPT1_REGS">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_CSI_OPT2_CRC">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_CSI_OPT3_FIXEDLANES">true</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_DISABLE_LITE">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_EN_CSI_V2_0">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_EN_VCX">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_HS_LINE_RATE">896</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_IS_7SERIES">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_MIPI_SLV_INT">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_RCVE_DESKEW_SEQ">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SPRT_ISP_BRIDGE">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_S_AXI_ADDR_WIDTH">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_S_AXI_DATA_WIDTH">32</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.Component_Name">bd_fb21_rx_0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.HP_IO_BANK_SELECTION">66</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.ARCHITECTURE">zynquplus</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.BASE_BOARD_PART">xilinx.com:kv260_som:part0:1.3</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.BOARD_CONNECTIONS">som240_1_connector xilinx.com:kv260_carrier:som240_1_connector:1.3</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.DEVICE">xck26</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.PACKAGE">sfvc784</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.PREFHDL">VERILOG</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.SILICON_REVISION"/>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.SIMULATOR_LANGUAGE">MIXED</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.SPEEDGRADE">-2LV</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.STATIC_POWER"/>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.TEMPERATURE_GRADE">C</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.USE_RDI_CUSTOMIZATION">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.USE_RDI_GENERATION">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.IPCONTEXT">IP_Integrator</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.IPREVISION">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.MANAGED">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.OUTPUTDIR">.</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SELECTEDSIMMODEL"/>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SHAREDDIR">../../../../../ipshared</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SWVERSION">2022.1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SYNTHESISFLOW">OUT_OF_CONTEXT</spirit:configurableElementValue>
+      </spirit:configurableElementValues>
+      <spirit:vendorExtensions>
+        <xilinx:componentInstanceExtensions>
+          <xilinx:configElementInfos>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.ASSOCIATED_BUSIF" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.ASSOCIATED_PORT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.ASSOCIATED_RESET" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.FREQ_HZ" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.FREQ_TOLERANCE_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL0_RXBYTECLKHS.PHASE" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.ASSOCIATED_BUSIF" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.ASSOCIATED_PORT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.ASSOCIATED_RESET" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.FREQ_HZ" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.FREQ_TOLERANCE_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL1_RXBYTECLKHS.PHASE" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.ASSOCIATED_BUSIF" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.ASSOCIATED_PORT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.ASSOCIATED_RESET" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.FREQ_HZ" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.FREQ_TOLERANCE_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL2_RXBYTECLKHS.PHASE" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.ASSOCIATED_BUSIF" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.ASSOCIATED_PORT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.ASSOCIATED_RESET" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.FREQ_HZ" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.FREQ_TOLERANCE_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DL3_RXBYTECLKHS.PHASE" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS.CLK_DOMAIN" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS.FREQ_HZ" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS.HAS_TKEEP" xilinx:valueSource="auto" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS.HAS_TLAST" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS.HAS_TREADY" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS.HAS_TSTRB" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS.LAYERED_METADATA" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS.PHASE" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS.TDATA_NUM_BYTES" xilinx:valueSource="auto" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS.TDEST_WIDTH" xilinx:valueSource="auto" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS.TID_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS.TUSER_WIDTH" xilinx:valueSource="auto" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.ASSOCIATED_PORT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.ASSOCIATED_RESET" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.CLK_DOMAIN" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.FREQ_HZ" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.FREQ_TOLERANCE_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS_ENI_SIGNAL_CLOCK.PHASE" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS_SIGNAL_CLOCK.ASSOCIATED_PORT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS_SIGNAL_CLOCK.CLK_DOMAIN" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS_SIGNAL_CLOCK.FREQ_HZ" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS_SIGNAL_CLOCK.FREQ_TOLERANCE_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS_SIGNAL_CLOCK.PHASE" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SIGNAL_INTERRUPT.PortWidth" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.ADDR_WIDTH" xilinx:valueSource="auto" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.ARUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.AWUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.BUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.CLK_DOMAIN" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.DATA_WIDTH" xilinx:valueSource="auto" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.FREQ_HZ" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_BRESP" xilinx:valueSource="constant_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_BURST" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_CACHE" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_LOCK" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_PROT" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_QOS" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_REGION" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_RRESP" xilinx:valueSource="constant_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.HAS_WSTRB" xilinx:valueSource="constant_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.ID_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.MAX_BURST_LENGTH" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.NUM_READ_OUTSTANDING" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.NUM_READ_THREADS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.NUM_WRITE_OUTSTANDING" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.NUM_WRITE_THREADS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.PHASE" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.PROTOCOL" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.READ_WRITE_MODE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.RUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.RUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.SUPPORTS_NARROW_BURST" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.WUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.WUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_SIGNAL_CLOCK.ASSOCIATED_PORT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_SIGNAL_CLOCK.CLK_DOMAIN" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_SIGNAL_CLOCK.FREQ_HZ" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_SIGNAL_CLOCK.FREQ_TOLERANCE_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_SIGNAL_CLOCK.PHASE" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.AXIS_FIFO_DEPTH" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.AXIS_TDATA_WIDTH" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.AXIS_TDEST_WIDTH" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.AXIS_TUSER_WIDTH" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CMN_INC_VFB" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CSI_EN_VC_SUPPORT" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CSI_FIXED_VC" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CSI_INV_SHUTDOWN" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CSI_LANES" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CSI_OFFLOAD_NONIMAGE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_CSI2RX_DBG" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_CSI_FILTER_USERDATATYPE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_CSI_OPT1_REGS" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_CSI_OPT2_CRC" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_CSI_OPT3_FIXEDLANES" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_DISABLE_LITE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_EN_CSI_V2_0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_EN_VCX" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_HS_LINE_RATE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_IS_7SERIES" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_MIPI_SLV_INT" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_RCVE_DESKEW_SEQ" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SPRT_ISP_BRIDGE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.HP_IO_BANK_SELECTION" xilinx:valueSource="user"/>
+          </xilinx:configElementInfos>
+          <xilinx:boundaryDescriptionInfo>
+            <xilinx:boundaryDescription xilinx:boundaryDescriptionJSON="{
+              &quot;schema&quot;: &quot;xilinx.com:schema:json_boundary:1.0&quot;,
+              &quot;boundary&quot;: {
+                &quot;ports&quot;: {
+                  &quot;s_axi_aclk&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;s_axi_aresetn&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;s_axi_awaddr&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;7&quot;, &quot;size_right&quot;: &quot;0&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;s_axi_awvalid&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;s_axi_awready&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;s_axi_wdata&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;31&quot;, &quot;size_right&quot;: &quot;0&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;s_axi_wstrb&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;3&quot;, &quot;size_right&quot;: &quot;0&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;s_axi_wvalid&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;s_axi_wready&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;s_axi_bresp&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;1&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
+                  &quot;s_axi_bvalid&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;s_axi_bready&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;s_axi_araddr&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;7&quot;, &quot;size_right&quot;: &quot;0&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;s_axi_arvalid&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;s_axi_arready&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;s_axi_rdata&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;31&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
+                  &quot;s_axi_rresp&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;1&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
+                  &quot;s_axi_rvalid&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;s_axi_rready&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;cl_stopstate&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;cl_enable&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;cl_rxulpsclknot&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;1&quot; } ],
+                  &quot;vfb_full&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;vfb_wc_full&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;core_men_ack_vfb&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;core_men_vfb&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;dl0_rxbyteclkhs&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;dl0_rxdatahs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;7&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
+                  &quot;dl0_rxvalidhs&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;dl0_rxactivehs&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;dl0_rxsynchs&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;dl0_stopstate&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;dl0_shutdown&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;dl0_rxulpmesc&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;dl0_errsoths&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;dl0_errsotsynchs&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;dl0_erresc&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;dl0_errcontrol&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;dl1_rxbyteclkhs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl1_rxdatahs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;7&quot;, &quot;size_right&quot;: &quot;0&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl1_rxvalidhs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl1_rxactivehs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl1_rxsynchs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl1_stopstate&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;1&quot; } ],
+                  &quot;dl1_shutdown&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;dl1_rxulpmesc&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl1_errsoths&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl1_errsotsynchs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl1_erresc&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl1_errcontrol&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl2_rxbyteclkhs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl2_rxdatahs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;7&quot;, &quot;size_right&quot;: &quot;0&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl2_rxvalidhs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl2_rxactivehs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl2_rxsynchs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl2_stopstate&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;1&quot; } ],
+                  &quot;dl2_shutdown&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;dl2_rxulpmesc&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl2_errsoths&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl2_errsotsynchs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl2_erresc&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl2_errcontrol&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl3_rxbyteclkhs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl3_rxdatahs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;7&quot;, &quot;size_right&quot;: &quot;0&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl3_rxvalidhs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl3_rxactivehs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl3_rxsynchs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl3_stopstate&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;1&quot; } ],
+                  &quot;dl3_shutdown&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;dl3_rxulpmesc&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl3_errsoths&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl3_errsotsynchs&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl3_erresc&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;dl3_errcontrol&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;video_aclk&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;m_axis_aclk&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;m_axis_aresetn&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;m_axis_tready&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
+                  &quot;m_axis_tvalid&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;m_axis_tlast&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
+                  &quot;m_axis_tdata&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;63&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
+                  &quot;m_axis_tkeep&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;7&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
+                  &quot;m_axis_tuser&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;95&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
+                  &quot;m_axis_tdest&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;3&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
+                  &quot;mdt_tv&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;mdt_tr&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;sdt_tv&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;sdt_tr&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;vfb_tv&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;vfb_tr&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;driver_value&quot;: &quot;0&quot; } ],
+                  &quot;interrupt&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ]
+                },
+                &quot;interfaces&quot;: {
+                  &quot;s_axi&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:interface:aximm:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:interface:aximm_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;slave&quot;,
+                    &quot;memory_map_ref&quot;: &quot;s_axi&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;DATA_WIDTH&quot;: [ { &quot;value&quot;: &quot;32&quot;, &quot;value_src&quot;: &quot;auto&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;PROTOCOL&quot;: [ { &quot;value&quot;: &quot;AXI4LITE&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;FREQ_HZ&quot;: [ { &quot;value&quot;: &quot;99999000&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ID_WIDTH&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ADDR_WIDTH&quot;: [ { &quot;value&quot;: &quot;8&quot;, &quot;value_src&quot;: &quot;auto&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;AWUSER_WIDTH&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ARUSER_WIDTH&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;WUSER_WIDTH&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;RUSER_WIDTH&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;BUSER_WIDTH&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;READ_WRITE_MODE&quot;: [ { &quot;value&quot;: &quot;READ_WRITE&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_BURST&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_LOCK&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_PROT&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_CACHE&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_QOS&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_REGION&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_WSTRB&quot;: [ { &quot;value&quot;: &quot;1&quot;, &quot;value_src&quot;: &quot;constant_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_BRESP&quot;: [ { &quot;value&quot;: &quot;1&quot;, &quot;value_src&quot;: &quot;constant_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_RRESP&quot;: [ { &quot;value&quot;: &quot;1&quot;, &quot;value_src&quot;: &quot;constant_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;SUPPORTS_NARROW_BURST&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;NUM_READ_OUTSTANDING&quot;: [ { &quot;value&quot;: &quot;2&quot;, &quot;value_src&quot;: &quot;default_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;NUM_WRITE_OUTSTANDING&quot;: [ { &quot;value&quot;: &quot;2&quot;, &quot;value_src&quot;: &quot;default_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;MAX_BURST_LENGTH&quot;: [ { &quot;value&quot;: &quot;1&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;PHASE&quot;: [ { &quot;value&quot;: &quot;0.0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;float&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;CLK_DOMAIN&quot;: [ { &quot;value&quot;: &quot;kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_clk_200M&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;NUM_READ_THREADS&quot;: [ { &quot;value&quot;: &quot;1&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;NUM_WRITE_THREADS&quot;: [ { &quot;value&quot;: &quot;1&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;RUSER_BITS_PER_BYTE&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;WUSER_BITS_PER_BYTE&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;INSERT_VIP&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;simulation.rtl&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ]
+                    },
+                    &quot;port_maps&quot;: {
+                      &quot;ARADDR&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_araddr&quot; } ],
+                      &quot;ARREADY&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_arready&quot; } ],
+                      &quot;ARVALID&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_arvalid&quot; } ],
+                      &quot;AWADDR&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_awaddr&quot; } ],
+                      &quot;AWREADY&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_awready&quot; } ],
+                      &quot;AWVALID&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_awvalid&quot; } ],
+                      &quot;BREADY&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_bready&quot; } ],
+                      &quot;BRESP&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_bresp&quot; } ],
+                      &quot;BVALID&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_bvalid&quot; } ],
+                      &quot;RDATA&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_rdata&quot; } ],
+                      &quot;RREADY&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_rready&quot; } ],
+                      &quot;RRESP&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_rresp&quot; } ],
+                      &quot;RVALID&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_rvalid&quot; } ],
+                      &quot;WDATA&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_wdata&quot; } ],
+                      &quot;WREADY&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_wready&quot; } ],
+                      &quot;WSTRB&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_wstrb&quot; } ],
+                      &quot;WVALID&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_wvalid&quot; } ]
+                    }
+                  },
+                  &quot;rx_mipi_ppi_if&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:interface:rx_mipi_ppi_if:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:interface:rx_mipi_ppi_if_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;slave&quot;,
+                    &quot;port_maps&quot;: {
+                      &quot;CL_ENABLE&quot;: [ { &quot;physical_name&quot;: &quot;cl_enable&quot; } ],
+                      &quot;CL_RXULPSCLKNOT&quot;: [ { &quot;physical_name&quot;: &quot;cl_rxulpsclknot&quot; } ],
+                      &quot;CL_STOPSTATE&quot;: [ { &quot;physical_name&quot;: &quot;cl_stopstate&quot; } ],
+                      &quot;DL0_ENABLE&quot;: [ { &quot;physical_name&quot;: &quot;dl0_shutdown&quot; } ],
+                      &quot;DL0_ERRCONTROL&quot;: [ { &quot;physical_name&quot;: &quot;dl0_errcontrol&quot; } ],
+                      &quot;DL0_ERRESC&quot;: [ { &quot;physical_name&quot;: &quot;dl0_erresc&quot; } ],
+                      &quot;DL0_ERRSOTHS&quot;: [ { &quot;physical_name&quot;: &quot;dl0_errsoths&quot; } ],
+                      &quot;DL0_ERRSOTSYNCHS&quot;: [ { &quot;physical_name&quot;: &quot;dl0_errsotsynchs&quot; } ],
+                      &quot;DL0_RXACTIVEHS&quot;: [ { &quot;physical_name&quot;: &quot;dl0_rxactivehs&quot; } ],
+                      &quot;DL0_RXDATAHS&quot;: [ { &quot;physical_name&quot;: &quot;dl0_rxdatahs&quot; } ],
+                      &quot;DL0_RXSYNCHS&quot;: [ { &quot;physical_name&quot;: &quot;dl0_rxsynchs&quot; } ],
+                      &quot;DL0_RXULPSESC&quot;: [ { &quot;physical_name&quot;: &quot;dl0_rxulpmesc&quot; } ],
+                      &quot;DL0_RXVALIDHS&quot;: [ { &quot;physical_name&quot;: &quot;dl0_rxvalidhs&quot; } ],
+                      &quot;DL0_STOPSTATE&quot;: [ { &quot;physical_name&quot;: &quot;dl0_stopstate&quot; } ],
+                      &quot;DL1_ENABLE&quot;: [ { &quot;physical_name&quot;: &quot;dl1_shutdown&quot; } ],
+                      &quot;DL1_ERRCONTROL&quot;: [ { &quot;physical_name&quot;: &quot;dl1_errcontrol&quot; } ],
+                      &quot;DL1_ERRESC&quot;: [ { &quot;physical_name&quot;: &quot;dl1_erresc&quot; } ],
+                      &quot;DL1_ERRSOTHS&quot;: [ { &quot;physical_name&quot;: &quot;dl1_errsoths&quot; } ],
+                      &quot;DL1_ERRSOTSYNCHS&quot;: [ { &quot;physical_name&quot;: &quot;dl1_errsotsynchs&quot; } ],
+                      &quot;DL1_RXACTIVEHS&quot;: [ { &quot;physical_name&quot;: &quot;dl1_rxactivehs&quot; } ],
+                      &quot;DL1_RXDATAHS&quot;: [ { &quot;physical_name&quot;: &quot;dl1_rxdatahs&quot; } ],
+                      &quot;DL1_RXSYNCHS&quot;: [ { &quot;physical_name&quot;: &quot;dl1_rxsynchs&quot; } ],
+                      &quot;DL1_RXULPSESC&quot;: [ { &quot;physical_name&quot;: &quot;dl1_rxulpmesc&quot; } ],
+                      &quot;DL1_RXVALIDHS&quot;: [ { &quot;physical_name&quot;: &quot;dl1_rxvalidhs&quot; } ],
+                      &quot;DL1_STOPSTATE&quot;: [ { &quot;physical_name&quot;: &quot;dl1_stopstate&quot; } ],
+                      &quot;DL2_ENABLE&quot;: [ { &quot;physical_name&quot;: &quot;dl2_shutdown&quot; } ],
+                      &quot;DL2_ERRCONTROL&quot;: [ { &quot;physical_name&quot;: &quot;dl2_errcontrol&quot; } ],
+                      &quot;DL2_ERRESC&quot;: [ { &quot;physical_name&quot;: &quot;dl2_erresc&quot; } ],
+                      &quot;DL2_ERRSOTHS&quot;: [ { &quot;physical_name&quot;: &quot;dl2_errsoths&quot; } ],
+                      &quot;DL2_ERRSOTSYNCHS&quot;: [ { &quot;physical_name&quot;: &quot;dl2_errsotsynchs&quot; } ],
+                      &quot;DL2_RXACTIVEHS&quot;: [ { &quot;physical_name&quot;: &quot;dl2_rxactivehs&quot; } ],
+                      &quot;DL2_RXDATAHS&quot;: [ { &quot;physical_name&quot;: &quot;dl2_rxdatahs&quot; } ],
+                      &quot;DL2_RXSYNCHS&quot;: [ { &quot;physical_name&quot;: &quot;dl2_rxsynchs&quot; } ],
+                      &quot;DL2_RXULPSESC&quot;: [ { &quot;physical_name&quot;: &quot;dl2_rxulpmesc&quot; } ],
+                      &quot;DL2_RXVALIDHS&quot;: [ { &quot;physical_name&quot;: &quot;dl2_rxvalidhs&quot; } ],
+                      &quot;DL2_STOPSTATE&quot;: [ { &quot;physical_name&quot;: &quot;dl2_stopstate&quot; } ],
+                      &quot;DL3_ENABLE&quot;: [ { &quot;physical_name&quot;: &quot;dl3_shutdown&quot; } ],
+                      &quot;DL3_ERRCONTROL&quot;: [ { &quot;physical_name&quot;: &quot;dl3_errcontrol&quot; } ],
+                      &quot;DL3_ERRESC&quot;: [ { &quot;physical_name&quot;: &quot;dl3_erresc&quot; } ],
+                      &quot;DL3_ERRSOTHS&quot;: [ { &quot;physical_name&quot;: &quot;dl3_errsoths&quot; } ],
+                      &quot;DL3_ERRSOTSYNCHS&quot;: [ { &quot;physical_name&quot;: &quot;dl3_errsotsynchs&quot; } ],
+                      &quot;DL3_RXACTIVEHS&quot;: [ { &quot;physical_name&quot;: &quot;dl3_rxactivehs&quot; } ],
+                      &quot;DL3_RXDATAHS&quot;: [ { &quot;physical_name&quot;: &quot;dl3_rxdatahs&quot; } ],
+                      &quot;DL3_RXSYNCHS&quot;: [ { &quot;physical_name&quot;: &quot;dl3_rxsynchs&quot; } ],
+                      &quot;DL3_RXULPSESC&quot;: [ { &quot;physical_name&quot;: &quot;dl3_rxulpmesc&quot; } ],
+                      &quot;DL3_RXVALIDHS&quot;: [ { &quot;physical_name&quot;: &quot;dl3_rxvalidhs&quot; } ],
+                      &quot;DL3_STOPSTATE&quot;: [ { &quot;physical_name&quot;: &quot;dl3_stopstate&quot; } ]
+                    }
+                  },
+                  &quot;m_axis&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:interface:axis:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:interface:axis_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;master&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;TDATA_NUM_BYTES&quot;: [ { &quot;value&quot;: &quot;8&quot;, &quot;value_src&quot;: &quot;auto&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;TDEST_WIDTH&quot;: [ { &quot;value&quot;: &quot;4&quot;, &quot;value_src&quot;: &quot;auto&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;TID_WIDTH&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;TUSER_WIDTH&quot;: [ { &quot;value&quot;: &quot;96&quot;, &quot;value_src&quot;: &quot;auto&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_TREADY&quot;: [ { &quot;value&quot;: &quot;1&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_TSTRB&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_TKEEP&quot;: [ { &quot;value&quot;: &quot;1&quot;, &quot;value_src&quot;: &quot;auto&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;HAS_TLAST&quot;: [ { &quot;value&quot;: &quot;1&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;FREQ_HZ&quot;: [ { &quot;value&quot;: &quot;299997000&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;PHASE&quot;: [ { &quot;value&quot;: &quot;0.0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;float&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;CLK_DOMAIN&quot;: [ { &quot;value&quot;: &quot;kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_clk_200M&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;LAYERED_METADATA&quot;: [ { &quot;value&quot;: &quot;undef&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;INSERT_VIP&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;simulation.rtl&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ]
+                    },
+                    &quot;port_maps&quot;: {
+                      &quot;TDATA&quot;: [ { &quot;physical_name&quot;: &quot;m_axis_tdata&quot; } ],
+                      &quot;TDEST&quot;: [ { &quot;physical_name&quot;: &quot;m_axis_tdest&quot; } ],
+                      &quot;TKEEP&quot;: [ { &quot;physical_name&quot;: &quot;m_axis_tkeep&quot; } ],
+                      &quot;TLAST&quot;: [ { &quot;physical_name&quot;: &quot;m_axis_tlast&quot; } ],
+                      &quot;TREADY&quot;: [ { &quot;physical_name&quot;: &quot;m_axis_tready&quot; } ],
+                      &quot;TUSER&quot;: [ { &quot;physical_name&quot;: &quot;m_axis_tuser&quot; } ],
+                      &quot;TVALID&quot;: [ { &quot;physical_name&quot;: &quot;m_axis_tvalid&quot; } ]
+                    }
+                  },
+                  &quot;m_axis_eni_signal_clock&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:signal:clock:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:signal:clock_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;slave&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;ASSOCIATED_BUSIF&quot;: [ { &quot;value&quot;: &quot;m_axis_eni&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;FREQ_HZ&quot;: [ { &quot;value&quot;: &quot;299997000&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;FREQ_TOLERANCE_HZ&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;PHASE&quot;: [ { &quot;value&quot;: &quot;0.0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;float&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;CLK_DOMAIN&quot;: [ { &quot;value&quot;: &quot;kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_clk_200M&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_PORT&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_RESET&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;INSERT_VIP&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;simulation.rtl&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ]
+                    },
+                    &quot;port_maps&quot;: {
+                      &quot;CLK&quot;: [ { &quot;physical_name&quot;: &quot;video_aclk&quot; } ]
+                    }
+                  },
+                  &quot;m_axis_signal_reset&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:signal:reset:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:signal:reset_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;slave&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;POLARITY&quot;: [ { &quot;value&quot;: &quot;ACTIVE_LOW&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;INSERT_VIP&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;simulation.rtl&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ]
+                    },
+                    &quot;port_maps&quot;: {
+                      &quot;RST&quot;: [ { &quot;physical_name&quot;: &quot;m_axis_aresetn&quot; } ]
+                    }
+                  },
+                  &quot;s_axi_signal_reset&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:signal:reset:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:signal:reset_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;slave&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;POLARITY&quot;: [ { &quot;value&quot;: &quot;ACTIVE_LOW&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;INSERT_VIP&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;simulation.rtl&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ]
+                    },
+                    &quot;port_maps&quot;: {
+                      &quot;RST&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_aresetn&quot; } ]
+                    }
+                  },
+                  &quot;m_axis_signal_clock&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:signal:clock:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:signal:clock_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;slave&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;ASSOCIATED_BUSIF&quot;: [ { &quot;value&quot;: &quot;m_axis&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;ASSOCIATED_RESET&quot;: [ { &quot;value&quot;: &quot;m_axis_aresetn&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;FREQ_HZ&quot;: [ { &quot;value&quot;: &quot;299997000&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;FREQ_TOLERANCE_HZ&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;PHASE&quot;: [ { &quot;value&quot;: &quot;0.0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;float&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;CLK_DOMAIN&quot;: [ { &quot;value&quot;: &quot;kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_clk_200M&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_PORT&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;INSERT_VIP&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;simulation.rtl&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ]
+                    },
+                    &quot;port_maps&quot;: {
+                      &quot;CLK&quot;: [ { &quot;physical_name&quot;: &quot;m_axis_aclk&quot; } ]
+                    }
+                  },
+                  &quot;s_axi_signal_clock&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:signal:clock:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:signal:clock_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;slave&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;ASSOCIATED_BUSIF&quot;: [ { &quot;value&quot;: &quot;s_axi&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;ASSOCIATED_RESET&quot;: [ { &quot;value&quot;: &quot;s_axi_aresetn&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;FREQ_HZ&quot;: [ { &quot;value&quot;: &quot;99999000&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;FREQ_TOLERANCE_HZ&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;PHASE&quot;: [ { &quot;value&quot;: &quot;0.0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;float&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;CLK_DOMAIN&quot;: [ { &quot;value&quot;: &quot;kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_clk_200M&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_PORT&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;INSERT_VIP&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;simulation.rtl&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ]
+                    },
+                    &quot;port_maps&quot;: {
+                      &quot;CLK&quot;: [ { &quot;physical_name&quot;: &quot;s_axi_aclk&quot; } ]
+                    }
+                  },
+                  &quot;signal_interrupt&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:signal:interrupt:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:signal:interrupt_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;master&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;SENSITIVITY&quot;: [ { &quot;value&quot;: &quot;LEVEL_HIGH&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;PortWidth&quot;: [ { &quot;value&quot;: &quot;1&quot;, &quot;value_src&quot;: &quot;default_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ]
+                    },
+                    &quot;port_maps&quot;: {
+                      &quot;INTERRUPT&quot;: [ { &quot;physical_name&quot;: &quot;interrupt&quot; } ]
+                    }
+                  },
+                  &quot;dl0_rxbyteclkhs&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:signal:clock:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:signal:clock_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;slave&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;FREQ_HZ&quot;: [ { &quot;value&quot;: &quot;112000000.0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;FREQ_TOLERANCE_HZ&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;PHASE&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;float&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;CLK_DOMAIN&quot;: [ { &quot;value&quot;: &quot;bd_fb21_phy_0_rxbyteclkhs&quot;, &quot;value_src&quot;: &quot;default_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_BUSIF&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_PORT&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_RESET&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;INSERT_VIP&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;simulation.rtl&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ]
+                    },
+                    &quot;port_maps&quot;: {
+                      &quot;CLK&quot;: [ { &quot;physical_name&quot;: &quot;dl0_rxbyteclkhs&quot; } ]
+                    }
+                  },
+                  &quot;dl1_rxbyteclkhs&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:signal:clock:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:signal:clock_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;slave&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;FREQ_HZ&quot;: [ { &quot;value&quot;: &quot;112000000.0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;FREQ_TOLERANCE_HZ&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;PHASE&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;float&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;CLK_DOMAIN&quot;: [ { &quot;value&quot;: &quot;bd_fb21_phy_0_rxbyteclkhs&quot;, &quot;value_src&quot;: &quot;default_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_BUSIF&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_PORT&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_RESET&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;INSERT_VIP&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;simulation.rtl&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ]
+                    },
+                    &quot;port_maps&quot;: {
+                      &quot;CLK&quot;: [ { &quot;physical_name&quot;: &quot;dl1_rxbyteclkhs&quot; } ]
+                    }
+                  },
+                  &quot;dl2_rxbyteclkhs&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:signal:clock:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:signal:clock_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;slave&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;FREQ_HZ&quot;: [ { &quot;value&quot;: &quot;112000000.0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;FREQ_TOLERANCE_HZ&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;PHASE&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;float&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;CLK_DOMAIN&quot;: [ { &quot;value&quot;: &quot;bd_fb21_phy_0_rxbyteclkhs&quot;, &quot;value_src&quot;: &quot;default_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_BUSIF&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_PORT&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_RESET&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;INSERT_VIP&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;simulation.rtl&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ]
+                    },
+                    &quot;port_maps&quot;: {
+                      &quot;CLK&quot;: [ { &quot;physical_name&quot;: &quot;dl2_rxbyteclkhs&quot; } ]
+                    }
+                  },
+                  &quot;dl3_rxbyteclkhs&quot;: {
+                    &quot;vlnv&quot;: &quot;xilinx.com:signal:clock:1.0&quot;,
+                    &quot;abstraction_type&quot;: &quot;xilinx.com:signal:clock_rtl:1.0&quot;,
+                    &quot;mode&quot;: &quot;slave&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;FREQ_HZ&quot;: [ { &quot;value&quot;: &quot;112000000.0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;all&quot; } ],
+                      &quot;FREQ_TOLERANCE_HZ&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;PHASE&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;ip_propagated&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;float&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;CLK_DOMAIN&quot;: [ { &quot;value&quot;: &quot;bd_fb21_phy_0_rxbyteclkhs&quot;, &quot;value_src&quot;: &quot;default_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_BUSIF&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_PORT&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;ASSOCIATED_RESET&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;INSERT_VIP&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;resolve_type&quot;: &quot;user&quot;, &quot;format&quot;: &quot;long&quot;, &quot;usage&quot;: &quot;simulation.rtl&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ]
+                    },
+                    &quot;port_maps&quot;: {
+                      &quot;CLK&quot;: [ { &quot;physical_name&quot;: &quot;dl3_rxbyteclkhs&quot; } ]
+                    }
+                  }
+                },
+                &quot;memory_maps&quot;: {
+                  &quot;s_axi&quot;: {
+                    &quot;address_blocks&quot;: {
+                      &quot;reg0&quot;: {
+                        &quot;base_address&quot;: &quot;0&quot;,
+                        &quot;range&quot;: &quot;4294967296&quot;,
+                        &quot;usage&quot;: &quot;register&quot;
+                      }
+                    }
+                  }
+                }
+              }
+            }"/>
+          </xilinx:boundaryDescriptionInfo>
+        </xilinx:componentInstanceExtensions>
+      </spirit:vendorExtensions>
+    </spirit:componentInstance>
+  </spirit:componentInstances>
+</spirit:design>

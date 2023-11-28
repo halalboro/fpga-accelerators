@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xck26-sfvc784-2LV-c" LaunchTime="1695311469">
+  <File Type="VDS-TIMINGSUMMARY" Name="kv260_ispMipiRx_vcu_DP_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="kv260_ispMipiRx_vcu_DP_wrapper.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="kv260_ispMipiRx_vcu_DP_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="kv260_ispMipiRx_vcu_DP_wrapper_utilization_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="kv260_ispMipiRx_vcu_DP_wrapper_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="kv260_ispMipiRx_vcu_DP_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="kv260_ispMipiRx_vcu_DP_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="kv260_ispMipiRx_vcu_DP_wrapper.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="kv260_ispMipiRx_vcu_DP_wrapper_drc_synth.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/kv260_ispMipiRx_vcu_DP_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PGENDIR/sources_1/bd/kv260_ispMipiRx_vcu_DP/hdl/kv260_ispMipiRx_vcu_DP_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1695311440"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="kv260_ispMipiRx_vcu_DP_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/xdc/pin.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../xdc/pin.xdc"/>
+        <Attr Name="ImportTime" Val="1695311158"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="bd_fb21_vfb_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_xbar_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s00_regslice_8"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_audio_formatter_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_clk_wiz_audio_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_auto_pc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_m00_regslice_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_auto_us_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_i2s_transmitter_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_auto_us_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s02_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s01_regslice_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_oddr_tx_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_fb21_phy_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s00_regslice_7"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s00_mmu_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_xbar_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_fb21_rx_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_fb21_r_sync_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s02_mmu_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s00_regslice_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_i2s_receiver_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s00_regslice_6"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_axi_iic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_axis_subset_converter_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_axis_data_fifo_cap_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_auto_us_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_vcu_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s01_regslice_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s01_mmu_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_proc_sys_reset_18MHz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_axi_vip_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_xbar_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_axi_clock_converter_s2mm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s01_mmu_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_oddr_rx_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_m00_regslice_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_axi_clock_converter_mm2s_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s00_mmu_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s01_mmu_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_m00_regslice_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_PS_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s00_regslice_9"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s00_mmu_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="kv260_ispMipiRx_vcu_DP_s01_regslice_4"/>
+</GenRun>

@@ -1,0 +1,7 @@
+
+{
+    "operationName" : "WCC",
+    "kernelName" : "wcc_kernel",
+    "requestLoad" : 100,
+    "deviceNeeded" : 1
+}

@@ -1,0 +1,7 @@
+
+{
+    "operationName" : "BFS",
+    "kernelName" : "bfs_kernel",
+    "requestLoad" : 100,
+    "deviceNeeded" : 1
+}

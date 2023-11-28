@@ -1,0 +1,374 @@
+
+*** Running vivado
+    with args -log kv260_ispMipiRx_vcu_DP_s02_mmu_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source kv260_ispMipiRx_vcu_DP_s02_mmu_0.tcl
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source kv260_ispMipiRx_vcu_DP_s02_mmu_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+Command: synth_design -top kv260_ispMipiRx_vcu_DP_s02_mmu_0 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 58200
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [/tools/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 2813.602 ; gain = 201.828 ; free physical = 1809 ; free virtual = 13575
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'kv260_ispMipiRx_vcu_DP_s02_mmu_0' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s02_mmu_0/synth/kv260_ispMipiRx_vcu_DP_s02_mmu_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_mmu_v2_1_24_top' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1b83/hdl/axi_mmu_v2_1_vl_rfs.v:556]
+INFO: [Synth 8-6157] synthesizing module 'axi_mmu_v2_1_24_addr_decoder' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1b83/hdl/axi_mmu_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'axi_mmu_v2_1_24_addr_decoder' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1b83/hdl/axi_mmu_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6157] synthesizing module 'axi_mmu_v2_1_24_decerr_slave' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1b83/hdl/axi_mmu_v2_1_vl_rfs.v:200]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1b83/hdl/axi_mmu_v2_1_vl_rfs.v:362]
+INFO: [Synth 8-6155] done synthesizing module 'axi_mmu_v2_1_24_decerr_slave' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1b83/hdl/axi_mmu_v2_1_vl_rfs.v:200]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_26_axi_register_slice' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:3725]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized0' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized0' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized1' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized1' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized2' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized2' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized3' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized3' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_26_axi_register_slice' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:3725]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_26_axi_register_slice' is unconnected for instance 'register_slice_inst' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1b83/hdl/axi_mmu_v2_1_vl_rfs.v:1172]
+WARNING: [Synth 8-7023] instance 'register_slice_inst' of module 'axi_register_slice_v2_1_26_axi_register_slice' has 93 connections declared, but only 92 given [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1b83/hdl/axi_mmu_v2_1_vl_rfs.v:1172]
+INFO: [Synth 8-6155] done synthesizing module 'axi_mmu_v2_1_24_top' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/1b83/hdl/axi_mmu_v2_1_vl_rfs.v:556]
+INFO: [Synth 8-6155] done synthesizing module 'kv260_ispMipiRx_vcu_DP_s02_mmu_0' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s02_mmu_0/synth/kv260_ispMipiRx_vcu_DP_s02_mmu_0.v:53]
+WARNING: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_26_axic_register_slice__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_26_axic_register_slice__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_26_axic_register_slice__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_26_axic_register_slice__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_26_axic_register_slice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_26_axic_register_slice__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_26_axic_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_26_axic_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk2x in module axi_register_slice_v2_1_26_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arid[0] in module axi_mmu_v2_1_24_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[7] in module axi_mmu_v2_1_24_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[6] in module axi_mmu_v2_1_24_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[5] in module axi_mmu_v2_1_24_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[4] in module axi_mmu_v2_1_24_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[3] in module axi_mmu_v2_1_24_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[2] in module axi_mmu_v2_1_24_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[1] in module axi_mmu_v2_1_24_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[0] in module axi_mmu_v2_1_24_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arvalid in module axi_mmu_v2_1_24_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rready in module axi_mmu_v2_1_24_decerr_slave is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[30] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[29] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[28] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[27] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[26] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[25] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[24] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[23] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[22] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[21] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[20] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[19] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[18] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[9] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[8] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[7] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[6] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[5] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[4] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[3] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[2] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[1] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module axi_mmu_v2_1_24_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arid[0] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[63] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[62] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[61] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[60] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[59] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[58] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[57] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[56] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[55] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[54] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[53] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[52] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[51] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[50] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[49] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[48] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[47] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[46] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[45] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[44] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[43] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[42] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[41] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[40] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[39] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[38] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[37] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[36] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[35] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[34] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[33] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[32] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[31] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[30] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[29] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[28] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[27] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[26] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[25] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[24] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[23] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[22] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[21] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[20] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[19] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[18] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_araddr[17] in module axi_mmu_v2_1_24_top is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 2883.508 ; gain = 271.734 ; free physical = 6109 ; free virtual = 18075
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 2901.320 ; gain = 289.547 ; free physical = 6087 ; free virtual = 18060
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 2901.320 ; gain = 289.547 ; free physical = 6086 ; free virtual = 18060
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2901.320 ; gain = 0.000 ; free physical = 7192 ; free virtual = 19175
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s02_mmu_0/kv260_ispMipiRx_vcu_DP_s02_mmu_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_s02_mmu_0/kv260_ispMipiRx_vcu_DP_s02_mmu_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s02_mmu_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s02_mmu_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3062.039 ; gain = 0.000 ; free physical = 6864 ; free virtual = 18960
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3062.039 ; gain = 0.000 ; free physical = 6901 ; free virtual = 18998
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 3062.039 ; gain = 450.266 ; free physical = 7130 ; free virtual = 19268
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 3062.039 ; gain = 450.266 ; free physical = 7130 ; free virtual = 19270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s02_mmu_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 3062.039 ; gain = 450.266 ; free physical = 7123 ; free virtual = 19263
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'gen_axi.gen_write.write_cs_reg' in module 'axi_mmu_v2_1_24_decerr_slave'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_write.w_state_reg' in module 'axi_mmu_v2_1_24_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            P_WRITE_IDLE |                              001 |                               00
+            P_WRITE_DATA |                              010 |                               01
+            P_WRITE_RESP |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.gen_write.write_cs_reg' using encoding 'one-hot' in module 'axi_mmu_v2_1_24_decerr_slave'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                              000
+*
+               W_PENDING |                              010 |                              001
+                W_DECERR |                              100 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_write.w_state_reg' using encoding 'one-hot' in module 'axi_mmu_v2_1_24_top'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 3062.039 ; gain = 450.266 ; free physical = 7011 ; free virtual = 19163
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    6 Bit       Adders := 2     
++---Registers : 
+	               99 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 3     
+	   3 Input    1 Bit        Muxes := 10    
+	   2 Input    1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3332] Sequential element (FSM_onehot_gen_write.w_state_reg[0]) is unused and will be removed from module axi_mmu_v2_1_24_top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 3062.039 ; gain = 450.266 ; free physical = 6566 ; free virtual = 18765
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 3398.914 ; gain = 787.141 ; free physical = 2919 ; free virtual = 15285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 3443.945 ; gain = 832.172 ; free physical = 2841 ; free virtual = 15209
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 3443.945 ; gain = 832.172 ; free physical = 2834 ; free virtual = 15202
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 3449.883 ; gain = 838.109 ; free physical = 3258 ; free virtual = 15739
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 3449.883 ; gain = 838.109 ; free physical = 3258 ; free virtual = 15739
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 3449.883 ; gain = 838.109 ; free physical = 3254 ; free virtual = 15736
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 3449.883 ; gain = 838.109 ; free physical = 3252 ; free virtual = 15734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 3449.883 ; gain = 838.109 ; free physical = 3252 ; free virtual = 15734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 3449.883 ; gain = 838.109 ; free physical = 3252 ; free virtual = 15734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     4|
+|2     |LUT2 |     7|
+|3     |LUT3 |     7|
+|4     |LUT4 |    16|
+|5     |LUT5 |     8|
+|6     |LUT6 |    22|
+|7     |FDRE |   117|
+|8     |FDSE |     2|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 3449.883 ; gain = 838.109 ; free physical = 3256 ; free virtual = 15739
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 134 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 3449.883 ; gain = 677.391 ; free physical = 3436 ; free virtual = 15935
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 3449.891 ; gain = 838.109 ; free physical = 3444 ; free virtual = 15942
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3460.852 ; gain = 0.000 ; free physical = 3527 ; free virtual = 16023
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3505.742 ; gain = 0.000 ; free physical = 3396 ; free virtual = 15890
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: c2fc8241
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 3505.742 ; gain = 893.969 ; free physical = 3574 ; free virtual = 16071
+INFO: [Common 17-1381] The checkpoint '/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s02_mmu_0_synth_1/kv260_ispMipiRx_vcu_DP_s02_mmu_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP kv260_ispMipiRx_vcu_DP_s02_mmu_0, cache-ID = cd65099c8ef77c15
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s02_mmu_0_synth_1/kv260_ispMipiRx_vcu_DP_s02_mmu_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file kv260_ispMipiRx_vcu_DP_s02_mmu_0_utilization_synth.rpt -pb kv260_ispMipiRx_vcu_DP_s02_mmu_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 21 21:21:59 2023...

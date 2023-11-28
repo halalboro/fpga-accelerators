@@ -1,0 +1,7 @@
+
+{
+    "operationName" : "similarityDenseInt",
+    "kernelName" : "denseSimilarityKernel",
+    "requestLoad" : 100,
+    "deviceNeeded" : 1
+}

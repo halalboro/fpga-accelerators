@@ -1,0 +1,28 @@
+!SESSION 2023-09-21 21:29:21.503 -----------------------------------------------
+eclipse.buildId=2021.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -application com.xilinx.sdx.cmdline.service 41153
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -application com.xilinx.sdx.cmdline.service 41153 -data /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP
+
+!ENTRY org.eclipse.osgi 4 0 2023-09-21 21:29:21.810
+!MESSAGE Bundle reference:file:org.apache.log4j_1.2.15.v201012070815.jar not found.
+
+!ENTRY org.eclipse.osgi 4 0 2023-09-21 21:29:21.839
+!MESSAGE Bundle reference:file:org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar not found.
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-09-21 21:29:25.858
+!MESSAGE The workspace will exit with unsaved changes in this session.
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-09-21 21:29:25.979
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.runtime.InternalPlatform.getLog(InternalPlatform.java:361)
+	at org.eclipse.core.runtime.Plugin.getLog(Plugin.java:237)
+	at org.eclipse.cdt.core.CCorePlugin.log(CCorePlugin.java:1617)
+	at org.eclipse.cdt.core.CCorePlugin.log(CCorePlugin.java:1596)
+	at org.eclipse.cdt.core.CCorePlugin.log(CCorePlugin.java:1580)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:170)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

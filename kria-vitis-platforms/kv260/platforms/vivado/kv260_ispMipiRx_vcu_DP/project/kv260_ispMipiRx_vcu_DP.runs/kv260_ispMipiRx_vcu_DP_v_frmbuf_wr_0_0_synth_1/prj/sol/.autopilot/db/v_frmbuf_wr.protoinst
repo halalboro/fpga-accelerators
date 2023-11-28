@@ -1,0 +1,134 @@
+{
+	"version": "1.0",
+	"modules": {
+		"kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_0_v_frmbuf_wr": {
+			"proto_instances": {
+				"/AESL_inst_kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_0_v_frmbuf_wr_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst_n"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_FrmbufWrHlsDataFlow_fu_162/AXIvideo2MultiPixStream_U0/AXIvideo2MultiPixStream_U0_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_CONTINUE": { "actual": "ap_continue"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_FrmbufWrHlsDataFlow_fu_162/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_241/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_241_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_FrmbufWrHlsDataFlow_fu_162/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_191/grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_191_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_FrmbufWrHlsDataFlow_fu_162/AXIvideo2MultiPixStream_U0/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_211/grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_211_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_FrmbufWrHlsDataFlow_fu_162/Bytes2AXIMMvideo_U0/Bytes2AXIMMvideo_U0_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_CONTINUE": { "actual": "ap_continue"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_FrmbufWrHlsDataFlow_fu_162/Bytes2AXIMMvideo_U0/grp_Bytes2AXIMMvideo_Pipeline_VITIS_LOOP_1117_1_fu_198/grp_Bytes2AXIMMvideo_Pipeline_VITIS_LOOP_1117_1_fu_198_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_FrmbufWrHlsDataFlow_fu_162/Bytes2AXIMMvideo_U0/grp_Bytes2AXIMMvideo_Pipeline_VITIS_LOOP_1127_2_fu_208/grp_Bytes2AXIMMvideo_Pipeline_VITIS_LOOP_1127_2_fu_208_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_FrmbufWrHlsDataFlow_fu_162/MultiPixStream2Bytes_U0/MultiPixStream2Bytes_U0_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_CONTINUE": { "actual": "ap_continue"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_FrmbufWrHlsDataFlow_fu_162/MultiPixStream2Bytes_U0/grp_MultiPixStream2Bytes_Pipeline_VITIS_LOOP_586_1_fu_200/grp_MultiPixStream2Bytes_Pipeline_VITIS_LOOP_586_1_fu_200_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_FrmbufWrHlsDataFlow_fu_162/entry_proc_U0/entry_proc_U0_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_CONTINUE": { "actual": "ap_continue"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_FrmbufWrHlsDataFlow_fu_162/grp_FrmbufWrHlsDataFlow_fu_162_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_CONTINUE": { "actual": "ap_continue"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				}
+			}
+		}
+	}
+}

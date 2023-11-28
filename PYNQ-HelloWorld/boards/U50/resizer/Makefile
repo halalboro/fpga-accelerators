@@ -1,0 +1,1 @@
+../../U55C/resizer/Makefile

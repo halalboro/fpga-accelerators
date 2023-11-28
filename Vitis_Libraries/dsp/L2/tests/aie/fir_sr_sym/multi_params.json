@@ -1,0 +1,91 @@
+{
+    "daily": {
+        "test_0_fir_sr_sym": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"199",
+            "SHIFT":"20",
+            "INPUT_WINDOW_VSIZE":"256"
+        },
+        "test_1_fir_sr_sym": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"129",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256"
+        },
+        "test_2_fir_sr_sym": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"89",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256"
+        },
+        "test_3_fir_sr_sym": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"63",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256"
+        },
+        "test_4_fir_sr_sym": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"cint16",
+            "COEFF_SIZE":"4",
+            "FIR_LEN":"30",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"512",
+            "CASC_LEN":"3"
+        },
+        "test_5_fir_sr_sym": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"cint16",
+            "COEFF_SIZE":"4",
+            "FIR_LEN":"24",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256"
+        },
+        "test_6_fir_sr_sym": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"cint16",
+            "COEFF_SIZE":"4",
+            "FIR_LEN":"24",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256",
+            "CASC_LEN":"2"
+        },
+        "test_7_fir_16t_reload": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"16",
+            "USE_COEFF_RELOAD":"1",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256"
+        },
+        "test_8_fir_96t_int16_int16": {
+            "DATA_TYPE":"int16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"96",
+            "SHIFT":"20",
+            "INPUT_WINDOW_VSIZE":"512"
+        },
+        "test_9_fir_1024t": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"1024",
+            "CASC_LEN":"4",
+            "SHIFT":"20",
+            "INPUT_WINDOW_VSIZE":"512"
+        },
+        "test_10_fir_32t_int32_int32_stream": {
+            "DATA_TYPE":"int32",
+            "COEFF_TYPE":"int32",
+            "COEFF_SIZE":"4",
+            "FIR_LEN":"32",
+            "CASC_LEN":"3",
+            "PORT_API":"1",
+            "SHIFT":"16",
+            "INPUT_WINDOW_VSIZE":"256"
+        }
+    }
+}

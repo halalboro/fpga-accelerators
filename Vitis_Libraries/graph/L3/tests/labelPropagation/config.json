@@ -1,0 +1,7 @@
+
+{
+    "operationName" : "labelPropagation",
+    "kernelName" : "LPKernel",
+    "requestLoad" : 100,
+    "deviceNeeded" : 1
+}

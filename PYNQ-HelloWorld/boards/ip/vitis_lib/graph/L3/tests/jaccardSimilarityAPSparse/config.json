@@ -1,0 +1,7 @@
+
+{
+    "operationName" : "similaritySparse",
+    "kernelName" : "sparseSimilarityKernel",
+    "requestLoad" : 100,
+    "deviceNeeded" : 1
+}

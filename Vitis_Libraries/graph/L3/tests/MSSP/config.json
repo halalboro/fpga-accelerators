@@ -1,0 +1,7 @@
+
+{
+    "operationName" : "shortestPathFloat",
+    "kernelName" : "shortestPath_top",
+    "requestLoad" : 100,
+    "deviceNeeded" : 1 
+}

@@ -1,0 +1,390 @@
+
+*** Running vivado
+    with args -log kv260_ispMipiRx_vcu_DP_auto_us_2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source kv260_ispMipiRx_vcu_DP_auto_us_2.tcl
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source kv260_ispMipiRx_vcu_DP_auto_us_2.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+Command: synth_design -top kv260_ispMipiRx_vcu_DP_auto_us_2 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 58202
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [/tools/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 2814.602 ; gain = 202.828 ; free physical = 5744 ; free virtual = 17704
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'kv260_ispMipiRx_vcu_DP_auto_us_2' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_auto_us_2/synth/kv260_ispMipiRx_vcu_DP_auto_us_2.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_26_top' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b3c7/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14461]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_26_axi_upsizer' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b3c7/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7037]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_26_w_upsizer' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b3c7/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5562]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_26_w_upsizer' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b3c7/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5562]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_26_a_upsizer' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b3c7/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3602]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:654]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:654]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_26_a_upsizer' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b3c7/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3602]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_26_axi_register_slice' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:3725]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized0' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized0' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized1' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized1' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized2' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized2' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized3' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_26_axic_register_slice__parameterized3' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_26_axi_register_slice' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/0a3f/hdl/axi_register_slice_v2_1_vl_rfs.v:3725]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_26_axi_register_slice' is unconnected for instance 'si_register_slice_inst' [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b3c7/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7379]
+WARNING: [Synth 8-7023] instance 'si_register_slice_inst' of module 'axi_register_slice_v2_1_26_axi_register_slice' has 93 connections declared, but only 92 given [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b3c7/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7379]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_26_axi_upsizer' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b3c7/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7037]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_26_top' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b3c7/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14461]
+INFO: [Synth 8-6155] done synthesizing module 'kv260_ispMipiRx_vcu_DP_auto_us_2' (0#1) [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_auto_us_2/synth/kv260_ispMipiRx_vcu_DP_auto_us_2.v:53]
+WARNING: [Synth 8-3848] Net m_axi_rready in module/entity axi_dwidth_converter_v2_1_26_axi_upsizer does not have driver. [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ipshared/b3c7/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7176]
+WARNING: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_26_axic_register_slice__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_26_axic_register_slice__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk2x in module axi_register_slice_v2_1_26_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_id_ready in module axi_dwidth_converter_v2_1_26_a_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AID[0] in module axi_dwidth_converter_v2_1_26_a_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rready in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlock[1] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlock[1] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rready in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_aresetn in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_aclk in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_arready in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[127] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[126] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[125] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[124] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[123] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[122] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[121] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[120] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[119] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[118] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[117] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[116] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[115] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[114] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[113] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[112] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[111] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[110] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[109] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[108] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[107] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[106] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[105] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[104] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[103] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[102] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[101] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[100] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[99] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[98] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[97] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[96] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[95] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[94] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[93] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[92] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[91] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[90] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[89] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[88] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[87] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[86] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[85] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[84] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[83] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[82] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[81] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[80] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[79] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[78] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[77] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[76] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[75] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[74] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[73] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[72] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[71] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[70] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[69] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[68] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[67] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[66] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[65] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[64] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[63] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[62] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[61] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[60] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[59] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[58] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[57] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[56] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[55] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[54] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[53] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[52] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[51] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[50] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[49] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[48] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[47] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rdata[46] in module axi_dwidth_converter_v2_1_26_axi_upsizer is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 2988.477 ; gain = 376.703 ; free physical = 7035 ; free virtual = 19102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 3006.289 ; gain = 394.516 ; free physical = 7029 ; free virtual = 19096
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 3006.289 ; gain = 394.516 ; free physical = 7029 ; free virtual = 19096
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3006.289 ; gain = 0.000 ; free physical = 7010 ; free virtual = 19079
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_auto_us_2/kv260_ispMipiRx_vcu_DP_auto_us_2_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.gen/sources_1/bd/kv260_ispMipiRx_vcu_DP/ip/kv260_ispMipiRx_vcu_DP_auto_us_2/kv260_ispMipiRx_vcu_DP_auto_us_2_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_auto_us_2_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_auto_us_2_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3170.008 ; gain = 0.000 ; free physical = 6658 ; free virtual = 18790
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3170.008 ; gain = 0.000 ; free physical = 6710 ; free virtual = 18843
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 3170.008 ; gain = 558.234 ; free physical = 6459 ; free virtual = 18658
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 3170.008 ; gain = 558.234 ; free physical = 6461 ; free virtual = 18660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_auto_us_2_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 3170.008 ; gain = 558.234 ; free physical = 6450 ; free virtual = 18649
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 3170.008 ; gain = 558.234 ; free physical = 6172 ; free virtual = 18442
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 2     
++---Registers : 
+	               94 Bit    Registers := 1     
+	               37 Bit    Registers := 2     
+	               36 Bit    Registers := 2     
+	               35 Bit    Registers := 1     
+	                8 Bit    Registers := 33    
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 49    
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 3     
+	   2 Input   37 Bit        Muxes := 2     
+	   2 Input   36 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 35    
+	   8 Input    8 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 5     
+	   8 Input    4 Bit        Muxes := 3     
+	   2 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 88    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 3170.008 ; gain = 558.234 ; free physical = 5128 ; free virtual = 17430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:35 . Memory (MB): peak = 3400.016 ; gain = 788.242 ; free physical = 3390 ; free virtual = 15884
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:36 . Memory (MB): peak = 3443.617 ; gain = 831.844 ; free physical = 3477 ; free virtual = 15972
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:37 . Memory (MB): peak = 3451.625 ; gain = 839.852 ; free physical = 3477 ; free virtual = 15971
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:39 . Memory (MB): peak = 3451.625 ; gain = 839.852 ; free physical = 3733 ; free virtual = 17565
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:39 . Memory (MB): peak = 3451.625 ; gain = 839.852 ; free physical = 3731 ; free virtual = 17564
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:39 . Memory (MB): peak = 3451.625 ; gain = 839.852 ; free physical = 3725 ; free virtual = 17589
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:39 . Memory (MB): peak = 3451.625 ; gain = 839.852 ; free physical = 3724 ; free virtual = 17590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:39 . Memory (MB): peak = 3451.625 ; gain = 839.852 ; free physical = 3723 ; free virtual = 17609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:39 . Memory (MB): peak = 3451.625 ; gain = 839.852 ; free physical = 3722 ; free virtual = 17610
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Dynamic Shift Register Report:
++------------+-------------------------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name                      | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+-------------------------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | USE_RTL_FIFO.data_srl_reg[31] | 35     | 35         | 0      | 35      | 0      | 0      | 0      | 
++------------+-------------------------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY8  |     1|
+|2     |LUT1    |     3|
+|3     |LUT2    |    36|
+|4     |LUT3    |    37|
+|5     |LUT4    |    30|
+|6     |LUT5    |   167|
+|7     |LUT6    |   100|
+|8     |SRLC32E |    33|
+|9     |FDRE    |   446|
+|10    |FDSE    |     2|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:39 . Memory (MB): peak = 3451.625 ; gain = 839.852 ; free physical = 3722 ; free virtual = 17611
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 231 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:35 . Memory (MB): peak = 3451.625 ; gain = 676.133 ; free physical = 3742 ; free virtual = 17689
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:39 . Memory (MB): peak = 3451.633 ; gain = 839.852 ; free physical = 3742 ; free virtual = 17689
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3462.594 ; gain = 0.000 ; free physical = 3822 ; free virtual = 17889
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3510.453 ; gain = 0.000 ; free physical = 3705 ; free virtual = 18255
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 712b4cea
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:44 . Memory (MB): peak = 3510.453 ; gain = 898.680 ; free physical = 3934 ; free virtual = 18628
+INFO: [Common 17-1381] The checkpoint '/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_auto_us_2_synth_1/kv260_ispMipiRx_vcu_DP_auto_us_2.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP kv260_ispMipiRx_vcu_DP_auto_us_2, cache-ID = 5615afb42b301836
+INFO: [Coretcl 2-1174] Renamed 7 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_auto_us_2_synth_1/kv260_ispMipiRx_vcu_DP_auto_us_2.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file kv260_ispMipiRx_vcu_DP_auto_us_2_utilization_synth.rpt -pb kv260_ispMipiRx_vcu_DP_auto_us_2_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 21 21:22:04 2023...

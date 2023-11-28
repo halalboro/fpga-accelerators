@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Sep 21 21:26:53 2023
+# Process ID: 64697
+# Current directory: /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0_synth_1
+# Command line: vivado -log kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0.tcl
+# Log file: /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0_synth_1/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0.vds
+# Journal file: /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0_synth_1/vivado.jou
+# Running On: anubhav-ROG, OS: Linux, CPU Frequency: 4370.063 MHz, CPU Physical cores: 16, Host memory: 16127 MB
+#-----------------------------------------------------------
+source kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0.tcl -notrace

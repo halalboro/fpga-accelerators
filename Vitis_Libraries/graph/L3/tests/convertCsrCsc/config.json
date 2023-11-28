@@ -1,0 +1,7 @@
+
+{
+    "operationName" : "convertCsrCsc",
+    "kernelName" : "convertCsrCsc_kernel",
+    "requestLoad" : 100,
+    "deviceNeeded" : 1
+}

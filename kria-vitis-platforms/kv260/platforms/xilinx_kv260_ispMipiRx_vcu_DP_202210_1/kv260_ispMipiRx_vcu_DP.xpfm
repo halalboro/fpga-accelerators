@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="kv260_ispMipiRx_vcu_DP"
+              sdx:version="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+kv260_ispMipiRx_vcu_DP
+    </sdx:description>
+    <sdx:hardwarePlatforms>
+        <sdx:hardwarePlatform sdx:path="hw" sdx:name="kv260_ispMipiRx_vcu_DP.xsa"/>
+    </sdx:hardwarePlatforms>
+    <sdx:softwarePlatforms>
+        <sdx:softwarePlatform sdx:path="sw" sdx:name="kv260_ispMipiRx_vcu_DP.spfm"/>
+    </sdx:softwarePlatforms>
+</sdx:platform>
+

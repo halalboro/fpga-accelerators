@@ -1,0 +1,51 @@
+# Compiled Sources
+###################
+*.o
+*.map
+*.hex
+*.dis
+*.exe
+
+# Packages 
+############
+
+# Windows Thumbnail
+######################
+Thumbs.db
+thumbs.db
+
+# Logs, Databases and Journals
+######################
+*.log
+*.jou
+
+# VIM Swap Files
+######################
+*.swp
+
+# Build directory
+######################
+build/
+sdcard/
+binary_container_1/
+
+# Test failure outputs
+######################
+tests/*.exp
+tests/*.out
+
+# Python cache files
+######################
+__pycache__/
+
+# Customized Makefile/project overrides
+######################
+GNUmakefile
+user.props
+
+# Overlay files
+######################
+*.bit
+*.hwh
+*.xo
+*.xclbin

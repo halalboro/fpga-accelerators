@@ -1,0 +1,92 @@
+{
+    "daily": {
+        "test_0_fir_11t_sym_hb_2i": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"11",
+            "UPSHIFT_CT":"1",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256"
+        },
+        "test_1_fir_15t_sym_hb_2i": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"15",
+            "UPSHIFT_CT":"1",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256"
+        },
+        "test_2_fir_23t_sym_hb_2i": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"23",
+            "UPSHIFT_CT":"1",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256"
+        },
+        "test_3_fir_27t_sym_hb_2i": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"27",
+            "UPSHIFT_CT":"1",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256"
+        },
+        "test_4_fir_43t_sym_hb_2i": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"43",
+            "UPSHIFT_CT":"1",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256"
+        },
+        "test_5_fir_47t_sym_hb_2i": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"47",
+            "UPSHIFT_CT":"1",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256"
+        },
+        "test_6_fir_11t_sym_hb_2i": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"11",
+            "UPSHIFT_CT":"1",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256",
+            "PORT_API":"1"
+        },
+        "test_7_fir_71t_sym_hb_2i": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"71",
+            "UPSHIFT_CT":"1",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256",
+            "DUAL_IP":"1",
+            "NUM_OUTPUTS":"2",
+            "PORT_API":"1",
+            "CASC_LEN":"3"
+        },
+        "test_8_fir_2047t_sym_hb_2i": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"2047",
+            "UPSHIFT_CT":"1",
+            "SHIFT":"25",
+            "INPUT_WINDOW_VSIZE":"512",
+            "PORT_API":"0",
+            "CASC_LEN":"8"
+        },
+        "test_9_fir_27t_reload": {
+            "DATA_TYPE":"cint16",
+            "COEFF_TYPE":"int16",
+            "FIR_LEN":"27",
+            "UPSHIFT_CT":"1",
+            "USE_COEFF_RELOAD":"1",
+            "SHIFT":"15",
+            "INPUT_WINDOW_VSIZE":"256"
+        }
+    }
+}

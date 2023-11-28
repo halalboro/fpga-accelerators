@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="kv260_ispMipiRx_vcu_DP"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+kv260_ispMipiRx_vcu_DP
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="kv260_ispMipiRx_vcu_DP">
+        <sdx:configuration sdx:name="kv260_ispMipiRx_vcu_DP"
+                           sdx:displayName="kv260_ispMipiRx_vcu_DP"
+                           sdx:defaultProcessorGroup="smp_linux"
+                           sdx:runtimes="ocl">
+            <sdx:description>kv260_ispMipiRx_vcu_DP</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="kv260_ispMipiRx_vcu_DP/boot/linux.bif"
+                            sdx:imageData="kv260_ispMipiRx_vcu_DP/smp_linux/image"
+                            sdx:bootmode="sd"
+                            sdx:mountPath="/mnt"
+                            sdx:readme="kv260_ispMipiRx_vcu_DP/boot/generic.readme"
+                            sdx:qemuArguments="kv260_ispMipiRx_vcu_DP/qemu/pmu_args.txt:kv260_ispMipiRx_vcu_DP/qemu/qemu_args.txt"
+                            />
+                <sdx:image sdx:name="smp_linux"
+                            sdx:bif="kv260_ispMipiRx_vcu_DP/boot/linux.bif"
+                            sdx:imageData="kv260_ispMipiRx_vcu_DP/smp_linux/image"
+                            sdx:mountPath="/mnt"
+                            sdx:readme="kv260_ispMipiRx_vcu_DP/boot/generic.readme"
+                            sdx:qemuArguments="kv260_ispMipiRx_vcu_DP/smp_linux/qemu/pmu_args.txt:kv260_ispMipiRx_vcu_DP/smp_linux/qemu/qemu_args.txt"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="smp_linux"
+                                sdx:displayName="smp_linux"
+                                sdx:cpuType="cortex-a53">
+                <sdx:os sdx:name="linux"
+                        sdx:displayName="linux"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>

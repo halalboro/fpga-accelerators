@@ -1,0 +1,7 @@
+
+{
+    "operationName" : "triangleCount",
+    "kernelName" : "TC_kernel",
+    "requestLoad" : 100,
+    "deviceNeeded" : 1
+}

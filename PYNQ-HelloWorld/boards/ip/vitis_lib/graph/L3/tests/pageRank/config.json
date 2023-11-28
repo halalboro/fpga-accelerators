@@ -1,0 +1,7 @@
+
+{
+    "operationName" : "pagerank",
+    "kernelName" : "kernel_pagerank_0",
+    "requestLoad" : 100,
+    "deviceNeeded" : 1
+}

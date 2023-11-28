@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="bd_fb21_r_sync_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_fb21_r_sync_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_fb21_rx_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_fb21_rx_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_fb21_phy_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_fb21_phy_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s02_mmu_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s02_mmu_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s01_mmu_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s01_mmu_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s00_mmu_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s00_mmu_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_m00_regslice_3_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_m00_regslice_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_auto_us_2_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_auto_us_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s02_regslice_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s02_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_auto_us_1_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_auto_us_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_PS_0_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_PS_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_auto_pc_1_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s01_regslice_3_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s01_regslice_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_i2s_transmitter_0_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_i2s_transmitter_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_i2s_receiver_0_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_i2s_receiver_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_clk_wiz_audio_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_clk_wiz_audio_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_oddr_tx_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_oddr_tx_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_axi_clock_converter_s2mm_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_axi_clock_converter_s2mm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_oddr_rx_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_oddr_rx_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_axi_clock_converter_mm2s_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_axi_clock_converter_mm2s_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_audio_formatter_0_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_audio_formatter_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_xbar_1_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_xbar_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s00_regslice_7_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s00_regslice_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s00_regslice_5_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s00_regslice_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_proc_sys_reset_18MHz_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_proc_sys_reset_18MHz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_auto_pc_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s00_regslice_6_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s00_regslice_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_xbar_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_axi_iic_0_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_axi_iic_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_axis_data_fifo_cap_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_axis_data_fifo_cap_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_axi_vip_0_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_axi_vip_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bd_fb21_r_sync_0_synth_1"/>
+		<Parent Id="bd_fb21_rx_0_synth_1"/>
+		<Parent Id="bd_fb21_phy_0_synth_1"/>
+		<Parent Id="bd_fb21_vfb_0_0_synth_1"/>
+	</Run>
+	<Run Id="kv260_ispMipiRx_vcu_DP_axis_subset_converter_0_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_axis_subset_converter_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_auto_us_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_auto_us_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_vcu_0_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_vcu_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s01_mmu_2_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s01_mmu_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s00_mmu_2_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s00_mmu_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_m00_regslice_5_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_m00_regslice_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s01_regslice_5_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s01_regslice_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s00_regslice_9_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s00_regslice_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_xbar_3_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_xbar_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s01_mmu_1_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s01_mmu_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s00_mmu_1_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s00_mmu_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_m00_regslice_4_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_m00_regslice_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s01_regslice_4_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s01_regslice_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_s00_regslice_8_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_s00_regslice_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_xbar_2_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_xbar_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_fb21_vfb_0_0_synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/bd_fb21_vfb_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s02_mmu_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s01_mmu_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s00_mmu_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_m00_regslice_3_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_auto_us_2_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s02_regslice_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_auto_us_1_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_PS_0_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_auto_pc_1_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s01_regslice_3_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_i2s_transmitter_0_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_i2s_receiver_0_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_clk_wiz_audio_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_oddr_tx_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_axi_clock_converter_s2mm_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_oddr_rx_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_axi_clock_converter_mm2s_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_audio_formatter_0_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_xbar_1_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s00_regslice_7_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s00_regslice_5_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_proc_sys_reset_18MHz_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_auto_pc_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s00_regslice_6_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_xbar_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_axi_iic_0_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_axis_data_fifo_cap_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_axi_vip_0_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_axis_subset_converter_0_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_auto_us_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_vcu_0_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_axi_reg_slice_vmcu_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s01_mmu_2_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s00_mmu_2_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_m00_regslice_5_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s01_regslice_5_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s00_regslice_9_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_xbar_3_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s01_mmu_1_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s00_mmu_1_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_m00_regslice_4_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s01_regslice_4_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_s00_regslice_8_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_xbar_2_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_proc_sys_reset_600MHz_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_proc_sys_reset_300MHz_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_proc_sys_reset_100MHz_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_clk_wiz_0_0_synth_1"/>
+		<Parent Id="kv260_ispMipiRx_vcu_DP_v_frmbuf_wr_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

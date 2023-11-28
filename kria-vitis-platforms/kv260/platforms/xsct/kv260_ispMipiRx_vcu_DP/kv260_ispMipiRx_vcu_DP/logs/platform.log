@@ -1,0 +1,739 @@
+TRACE::2023-09-21.21:29:11::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:11::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:11::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:11::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:11::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:11::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:11::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-09-21.21:29:15::SCWPlatform::Opened new HwDB with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:15::SCWWriter::formatted JSON is {
+	"platformName":	"kv260_ispMipiRx_vcu_DP",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kv260_ispMipiRx_vcu_DP",
+	"platHandOff":	"vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.xsa",
+	"platIntHandOff":	"<platformDir>/hw/kv260_ispMipiRx_vcu_DP.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-09-21.21:29:15::SCWWriter::formatted JSON is {
+	"platformName":	"kv260_ispMipiRx_vcu_DP",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kv260_ispMipiRx_vcu_DP",
+	"platHandOff":	"vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.xsa",
+	"platIntHandOff":	"<platformDir>/hw/kv260_ispMipiRx_vcu_DP.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"kv260_ispMipiRx_vcu_DP",
+	"systems":	[{
+			"systemName":	"kv260_ispMipiRx_vcu_DP",
+			"systemDesc":	"kv260_ispMipiRx_vcu_DP",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"kv260_ispMipiRx_vcu_DP"
+		}]
+}
+TRACE::2023-09-21.21:29:16::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-09-21.21:29:16::SCWDomain::checking for install qemu data   : 
+TRACE::2023-09-21.21:29:16::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/
+TRACE::2023-09-21.21:29:16::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt
+TRACE::2023-09-21.21:29:16::SCWDomain:: Using the PMUQEMU args from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt
+TRACE::2023-09-21.21:29:16::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:16::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:16::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:16::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:16::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:16::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:16::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:16::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:16::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:16::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:16::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:16::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:16::SCWPlatform::Boot application domain added for zynqmp_fsbl
+TRACE::2023-09-21.21:29:16::SCWPlatform::Generating the sources  .
+TRACE::2023-09-21.21:29:16::SCWBDomain::Generating boot domain sources.
+TRACE::2023-09-21.21:29:16::SCWBDomain:: Generating the zynqmp_fsbl Application.
+TRACE::2023-09-21.21:29:16::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:16::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:16::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:16::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:16::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:16::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:16::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-09-21.21:29:16::SCWMssOS::No sw design opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:16::SCWMssOS::mss does not exists at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:16::SCWMssOS::Creating sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:16::SCWMssOS::Adding the swdes entry, created swdb /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss with des name /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:16::SCWMssOS::updating the scw layer changes to swdes at   /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:16::SCWMssOS::Writing mss at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:16::SCWMssOS::Completed writing the mss file at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp
+TRACE::2023-09-21.21:29:16::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-09-21.21:29:16::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-09-21.21:29:16::SCWBDomain::Completed writing the mss file at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp
+TRACE::2023-09-21.21:29:18::SCWPlatform::Generating sources Done.
+TRACE::2023-09-21.21:29:18::SCWDomain::checking for install qemu data   : 
+TRACE::2023-09-21.21:29:18::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/
+TRACE::2023-09-21.21:29:18::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt
+TRACE::2023-09-21.21:29:18::SCWDomain:: Using the PMUQEMU args from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt
+TRACE::2023-09-21.21:29:18::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:18::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:18::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:18::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:18::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:18::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:18::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:18::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:18::SCWPlatform::Boot application domain added for zynqmp_pmufw
+TRACE::2023-09-21.21:29:18::SCWPlatform::Generating the sources  .
+TRACE::2023-09-21.21:29:18::SCWBDomain::Generating boot domain sources.
+TRACE::2023-09-21.21:29:18::SCWBDomain:: Generating the zynqmp_pmufw Application.
+TRACE::2023-09-21.21:29:18::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:18::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:18::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:18::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:18::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:18::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:18::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:18::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:18::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:18::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-09-21.21:29:18::SCWMssOS::No sw design opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:18::SCWMssOS::mss does not exists at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:18::SCWMssOS::Creating sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:18::SCWMssOS::Adding the swdes entry, created swdb /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss with des name /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:18::SCWMssOS::updating the scw layer changes to swdes at   /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:18::SCWMssOS::Writing mss at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:18::SCWMssOS::Completed writing the mss file at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp
+TRACE::2023-09-21.21:29:18::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-09-21.21:29:18::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-09-21.21:29:18::SCWBDomain::Completed writing the mss file at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp
+TRACE::2023-09-21.21:29:19::SCWPlatform::Generating sources Done.
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:19::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-09-21.21:29:19::SCWMssOS::No sw design opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::mss exists loading the mss file  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::Opened the sw design from mss  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::Adding the swdes entry /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss with des name system
+TRACE::2023-09-21.21:29:19::SCWMssOS::updating the scw layer about changes
+TRACE::2023-09-21.21:29:19::SCWMssOS::Opened the sw design.  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:19::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2023-09-21.21:29:19::SCWMssOS::No sw design opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::mss exists loading the mss file  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::Opened the sw design from mss  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::Adding the swdes entry /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss with des name system_0
+TRACE::2023-09-21.21:29:19::SCWMssOS::updating the scw layer about changes
+TRACE::2023-09-21.21:29:19::SCWMssOS::Opened the sw design.  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::Saving the mss changes /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-09-21.21:29:19::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-09-21.21:29:19::SCWMssOS::Commit changes completed.
+TRACE::2023-09-21.21:29:19::SCWMssOS::Saving the mss changes /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-09-21.21:29:19::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-09-21.21:29:19::SCWMssOS::Commit changes completed.
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:19::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2023-09-21.21:29:19::SCWMssOS::Sw design exists and opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:19::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2023-09-21.21:29:19::SCWMssOS::Sw design exists and opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:19::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2023-09-21.21:29:19::SCWMssOS::Sw design exists and opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:19::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2023-09-21.21:29:19::SCWMssOS::Sw design exists and opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:19::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2023-09-21.21:29:19::SCWMssOS::Sw design exists and opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:19::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:19::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:19::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2023-09-21.21:29:19::SCWMssOS::Sw design exists and opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:19::SCWWriter::formatted JSON is {
+	"platformName":	"kv260_ispMipiRx_vcu_DP",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kv260_ispMipiRx_vcu_DP",
+	"platHandOff":	"vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.xsa",
+	"platIntHandOff":	"<platformDir>/hw/kv260_ispMipiRx_vcu_DP.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"psu_cortexa53_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"kv260_ispMipiRx_vcu_DP",
+	"systems":	[{
+			"systemName":	"kv260_ispMipiRx_vcu_DP",
+			"systemDesc":	"kv260_ispMipiRx_vcu_DP",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"kv260_ispMipiRx_vcu_DP",
+			"sysActiveDom":	"zynqmp_pmufw",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynqmp_fsbl",
+					"domainDispName":	"zynqmp_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"psu_cortexa53_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"446e59afcdd937b6b7c87765aebd9353",
+					"compatibleApp":	"zynqmp_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.7", "xilsecure:4.7", "xilpm:4.0"],
+					"libOptions":	{
+						"standalone":	{
+							"zynqmp_fsbl_bsp":	"true",
+							"libOptionNames":	["zynqmp_fsbl_bsp"]
+						},
+						"xilffs":	{
+							"read_only":	"true",
+							"use_mkfs":	"false",
+							"libOptionNames":	["read_only", "use_mkfs"]
+						},
+						"xilsecure":	{
+							"tpm_support":	"true",
+							"libOptionNames":	["tpm_support"]
+						},
+						"libsContainingOptions":	["standalone", "xilffs", "xilsecure"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"zynqmp_pmufw",
+					"domainDispName":	"zynqmp_pmufw",
+					"domainDesc":	"PMUFW Application BSP - Auto Generated.",
+					"processors":	"psu_pmu_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"3c7014a2d693e94a2aceadb375b4389d",
+					"compatibleApp":	"zynqmp_pmufw",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilfpga:6.2", "xilsecure:4.7", "xilskey:7.3"],
+					"libOptions":	{
+						"psu_pmu_0":	{
+							"extra_compiler_flags":	"-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns  -Os -flto -ffat-lto-objects",
+							"libOptionNames":	["extra_compiler_flags"]
+						},
+						"libsContainingOptions":	["psu_pmu_0"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:25::SCWDomain::checking for install qemu data   : 
+TRACE::2023-09-21.21:29:25::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/
+TRACE::2023-09-21.21:29:25::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/qemu_args.txt
+TRACE::2023-09-21.21:29:25::SCWDomain:: Using the PMUQEMU args from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/pmu_args.txt
+TRACE::2023-09-21.21:29:25::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2023-09-21.21:29:25::SCWMssOS::Saving the mss changes /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-09-21.21:29:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-09-21.21:29:25::SCWMssOS::Commit changes completed.
+TRACE::2023-09-21.21:29:25::SCWMssOS::Saving the mss changes /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-09-21.21:29:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-09-21.21:29:25::SCWMssOS::Commit changes completed.
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:25::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2023-09-21.21:29:25::SCWMssOS::Sw design exists and opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:25::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2023-09-21.21:29:25::SCWMssOS::Sw design exists and opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:25::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2023-09-21.21:29:25::SCWMssOS::Sw design exists and opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:25::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2023-09-21.21:29:25::SCWMssOS::Sw design exists and opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:25::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2023-09-21.21:29:25::SCWMssOS::Sw design exists and opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to open the hw design at /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA given /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA absoulate path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform::DSA directory /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Platform Path /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/hw/kv260_ispMipiRx_vcu_DP.xsa
+TRACE::2023-09-21.21:29:25::SCWPlatform:: Unique name xilinx:kv260_ispMipiRx_vcu_DP:kv260_ispMipiRx_vcu_DP:1.0
+TRACE::2023-09-21.21:29:25::SCWPlatform::Trying to set the existing hwdb with name kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Opened existing hwdb kv260_ispMipiRx_vcu_DP_wrapper
+TRACE::2023-09-21.21:29:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-09-21.21:29:25::SCWMssOS::Checking the sw design at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWMssOS::DEBUG:  swdes dump  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2023-09-21.21:29:25::SCWMssOS::Sw design exists and opened at  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWWriter::formatted JSON is {
+	"platformName":	"kv260_ispMipiRx_vcu_DP",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kv260_ispMipiRx_vcu_DP",
+	"platHandOff":	"vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.xsa",
+	"platIntHandOff":	"<platformDir>/hw/kv260_ispMipiRx_vcu_DP.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"psu_cortexa53_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"kv260_ispMipiRx_vcu_DP",
+	"systems":	[{
+			"systemName":	"kv260_ispMipiRx_vcu_DP",
+			"systemDesc":	"kv260_ispMipiRx_vcu_DP",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"kv260_ispMipiRx_vcu_DP",
+			"sysActiveDom":	"smp_linux",
+			"sysDefaultDom":	"smp_linux",
+			"domains":	[{
+					"domainName":	"zynqmp_fsbl",
+					"domainDispName":	"zynqmp_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"psu_cortexa53_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"446e59afcdd937b6b7c87765aebd9353",
+					"compatibleApp":	"zynqmp_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.7", "xilsecure:4.7", "xilpm:4.0"],
+					"libOptions":	{
+						"standalone":	{
+							"zynqmp_fsbl_bsp":	"true",
+							"libOptionNames":	["zynqmp_fsbl_bsp"]
+						},
+						"xilffs":	{
+							"read_only":	"true",
+							"use_mkfs":	"false",
+							"libOptionNames":	["read_only", "use_mkfs"]
+						},
+						"xilsecure":	{
+							"tpm_support":	"true",
+							"libOptionNames":	["tpm_support"]
+						},
+						"libsContainingOptions":	["standalone", "xilffs", "xilsecure"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"zynqmp_pmufw",
+					"domainDispName":	"zynqmp_pmufw",
+					"domainDesc":	"PMUFW Application BSP - Auto Generated.",
+					"processors":	"psu_pmu_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"3c7014a2d693e94a2aceadb375b4389d",
+					"compatibleApp":	"zynqmp_pmufw",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilfpga:6.2", "xilsecure:4.7", "xilskey:7.3"],
+					"libOptions":	{
+						"psu_pmu_0":	{
+							"extra_compiler_flags":	"-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns  -Os -flto -ffat-lto-objects",
+							"libOptionNames":	["extra_compiler_flags"]
+						},
+						"libsContainingOptions":	["psu_pmu_0"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"smp_linux",
+					"domainDispName":	"smp_linux",
+					"domainDesc":	"smp_linux",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/kv260_ispMipiRx_vcu_DP/smp_linux/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/kv260_ispMipiRx_vcu_DP/smp_linux/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/kv260_ispMipiRx_vcu_DP/smp_linux/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["ocl"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-09-21.21:29:25::SCWPlatform::removing the boot application domain:  zynqmp_fsbl
+TRACE::2023-09-21.21:29:25::SCWBDomain::clearing the fsbl build
+TRACE::2023-09-21.21:29:25::SCWMssOS::Removing the swdes entry for  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWPlatform::removing the boot application domain:  zynqmp_pmufw
+TRACE::2023-09-21.21:29:25::SCWBDomain::clearing the pmufw build
+TRACE::2023-09-21.21:29:25::SCWMssOS::Removing the swdes entry for  /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2023-09-21.21:29:25::SCWWriter::formatted JSON is {
+	"platformName":	"kv260_ispMipiRx_vcu_DP",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kv260_ispMipiRx_vcu_DP",
+	"platHandOff":	"vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.xsa",
+	"platIntHandOff":	"<platformDir>/hw/kv260_ispMipiRx_vcu_DP.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"kv260_ispMipiRx_vcu_DP",
+	"systems":	[{
+			"systemName":	"kv260_ispMipiRx_vcu_DP",
+			"systemDesc":	"kv260_ispMipiRx_vcu_DP",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"kv260_ispMipiRx_vcu_DP",
+			"sysActiveDom":	"smp_linux",
+			"sysDefaultDom":	"smp_linux",
+			"domains":	[{
+					"domainName":	"smp_linux",
+					"domainDispName":	"smp_linux",
+					"domainDesc":	"smp_linux",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/kv260_ispMipiRx_vcu_DP/smp_linux/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/kv260_ispMipiRx_vcu_DP/smp_linux/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/kv260_ispMipiRx_vcu_DP/smp_linux/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["ocl"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"sysBootDir":	"boot",
+					"bootBifFile":	"linux.bif",
+					"isMicroBlaze":	"false",
+					"imageLocation":	"image",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-09-21.21:29:25::SCWPlatform::Started generating the artifacts platform kv260_ispMipiRx_vcu_DP
+TRACE::2023-09-21.21:29:25::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-09-21.21:29:25::SCWPlatform::Started generating the artifacts for system configuration kv260_ispMipiRx_vcu_DP
+LOG::2023-09-21.21:29:25::SCWSystem::Checking the domain smp_linux
+LOG::2023-09-21.21:29:25::SCWSystem::Not a boot domain 
+TRACE::2023-09-21.21:29:25::SCWSystem::Copying the bif file from  linux.bif To /home/anubhav/Documents/kria-vitis-platforms/kv260/platforms/xsct/kv260_ispMipiRx_vcu_DP/kv260_ispMipiRx_vcu_DP/export/kv260_ispMipiRx_vcu_DP/sw/kv260_ispMipiRx_vcu_DP/boot/
+LOG::2023-09-21.21:29:25::SCWSystem::Started Processing the domain smp_linux
+TRACE::2023-09-21.21:29:25::SCWDomain::Generating domain artifcats
+LOG::2023-09-21.21:29:25::SCWSystem::Completed Processing the domain smp_linux
+LOG::2023-09-21.21:29:25::SCWSystem::Completed Processing the sysconfig kv260_ispMipiRx_vcu_DP
+LOG::2023-09-21.21:29:25::SCWPlatform::Completed generating the artifacts for system configuration kv260_ispMipiRx_vcu_DP
+TRACE::2023-09-21.21:29:25::SCWPlatform::Started preparing the platform 
+TRACE::2023-09-21.21:29:25::SCWSystem::Skipping writing of the bif file for system config kv260_ispMipiRx_vcu_DP
+TRACE::2023-09-21.21:29:25::SCWPlatform::Started writing the spfm file 
+TRACE::2023-09-21.21:29:25::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-09-21.21:29:25::SCWPlatform::Completed generating the platform
+TRACE::2023-09-21.21:29:25::SCWWriter::formatted JSON is {
+	"platformName":	"kv260_ispMipiRx_vcu_DP",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kv260_ispMipiRx_vcu_DP",
+	"platHandOff":	"vivado/kv260_ispMipiRx_vcu_DP/project/kv260_ispMipiRx_vcu_DP.xsa",
+	"platIntHandOff":	"<platformDir>/hw/kv260_ispMipiRx_vcu_DP.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"kv260_ispMipiRx_vcu_DP",
+	"systems":	[{
+			"systemName":	"kv260_ispMipiRx_vcu_DP",
+			"systemDesc":	"kv260_ispMipiRx_vcu_DP",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"kv260_ispMipiRx_vcu_DP",
+			"sysActiveDom":	"smp_linux",
+			"sysDefaultDom":	"smp_linux",
+			"domains":	[{
+					"domainName":	"smp_linux",
+					"domainDispName":	"smp_linux",
+					"domainDesc":	"smp_linux",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/kv260_ispMipiRx_vcu_DP/smp_linux/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/kv260_ispMipiRx_vcu_DP/smp_linux/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/kv260_ispMipiRx_vcu_DP/smp_linux/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["ocl"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"sysBootDir":	"boot",
+					"bootBifFile":	"linux.bif",
+					"isMicroBlaze":	"false",
+					"imageLocation":	"image",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-09-21.21:29:25::SCWPlatform::updated the xpfm file.
