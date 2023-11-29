@@ -1,4 +1,4 @@
-# fpga-accelerators
+# fpga-accelerators (in development)
 A compilation of all the tools and resources that one requires before they can run their own hardware accelerator on an FPGA. </br>
 Our focus is on  documenting the flow of developing a hardware accelerator, starting right from training the neural network on a host all the way to detecting objects in real time from the webcam feed on a Xilinx KV260 FPGA. This will serve as a good starting point for all the embedded systems/ML enthusiasts who can't figure out a thing from the Vitis-AI documentation (literally me). </br>
 
@@ -85,7 +85,33 @@ https://xilinx.github.io/kria-apps-docs/kv260/2022.1/build/html/index.html (Refe
 
 After you have booted up the board with the Ubuntu image, you need to setup the board for running the model on it. </br>
 
-Step 1 -
+Step 1 - Run the following commands in the terminal </br>
+
+``` sudo apt install vitis-ai-runtime vitis-ai-library
+sudo apt install build-essential cmake git pkg-config libgtk-3-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev gfortran openexr libatlas-base-dev python3-dev       python3-numpy libtbb2 libtbb-dev libunilog1 libgoogle-glog-dev libjson-c-dev
+git clone --branch 3.0 --depth 1 https://github.com/Xilinx/Vitis-AI.git
+sudo apt update
+sudo apt install libopencv-dev
+pkg-config --modversion opencv4
+cd Documents/Vitis-AI/board_setup/mpsoc
+chmod +x target_vart_setup.sh
+./target_vart_setup.sh
+sudo apt install libunilog1 libgoogle-glog-dev libjson-c-dev
+sudo mkdir -p /usr/share/vitis_ai_library/models
+ls /usr/share/vitis_ai_library/models
+ls ~/Desktop/densebox_320_320/
+sudo cp -R ~/Desktop/densebox_320_320/ /usr/share/vitis_ai_library/models
+ls /usr/share/vitis_ai_library/models
+tar -xzf vitis_ai_library_r3.0.0_images.tar.gz -C ~/Documents/Vitis-AI/examples/vai_library/
+cd ~/Documents/Vitis-AI/examples/vai_library/samples/facedetect/
+chmod +x ./build.sh
+sudo apt install xlnx-firmware-kv260-benchmark-b4096
+sudo xmutil unloadapp
+sudo xmutil loadapp kv260-benchmark-b4096
+./test_jpeg_facedetect densebox_320_320 sample_facedetect.jpg
+```
+ 
+
 
 
          
