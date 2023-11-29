@@ -22,6 +22,7 @@ Step 1 - Let's try the Resnet50 for Tensorflow2 </br>
          https://github.com/Xilinx/Vitis-AI/tree/3.0/model_zoo/model-list/tf2_resnet50_imagenet_224_224_7.76G_3.0
          
 Inside there's a model.yaml file that has the links for the model for specific cards or, like the one we're going to get, not quantized. </br>
+The model.yaml file also provides us with an xmodel file for KV260 directly but we are not going to use it as it gives errors frequently. </br>
 
 Vitis has a model-zoo with a lot of models to test. </br>
 https://github.com/Xilinx/Vitis-AI/tree/3.0/model_zoo </br>
@@ -37,7 +38,7 @@ Download the model - </br>
 Uncompress it- </br>
 ```unzip tf2_resnet50_imagenet_224_224_7.76G_3.0.zip```
 
-This model is already quantized
+Method 1 - This model is already quantized. (Use the quantized.h5)
 
 Step 2 - Copy this model to your working directory of the Docker Image (Vitis-AI directory)
 
@@ -57,6 +58,8 @@ Compile the model for KV260 DPU
 
 ```vai_c_tensorflow2 -m tf2_resnet50_imagenet_224_224_7.76G_3.0/quantized/quantized.h5 -a /opt/vitis_ai/compiler/arch/DPUCZDX8G/KV260/arch.json -o tf2_resnet50_imagenet_224_224_7.76G_3.0/output -n model_compiled```
 
+https://docs.xilinx.com/r/3.0-English/ug1414-vitis-ai/VAI_C-Usage (More about vai_c) </br>
+
 An explanation of the arguments
 
     -f : where's the model quantized
@@ -65,3 +68,24 @@ An explanation of the arguments
     -n : the name we're going to give the saved model
 
 And we have xmodel for our KV260. Generating the xmodel completes the model generation on the host machine. Now, we can move to the FPGA board to deploy it.
+
+
+Method 2 - Quantize the model based on the files provided in the zip. This gives you the flexibility of changing the dataset but it must match the same directory structure and dimensions. </br>
+Simply go through the readme file and follow all the steps sequentially to generate the quantized.h5 yourself. After this, the steps are the same as in Method 1. </br>
+
+https://docs.xilinx.com/r/3.0-English/ug1414-vitis-ai/Quantizing-the-Model?tocId=FE7iDNcwer8ib9O67S~6Uw (More about quantizing the model) </br>
+
+**Setting up the board (KV260)** </br>
+
+Boot up the board with the following ubuntu image - https://ubuntu.com/certified/202104-28895 <br>
+https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/setting-up-the-sd-card-image.html (reference) </br>
+*Note - You could also use petalinux image* </br>
+
+https://xilinx.github.io/kria-apps-docs/kv260/2022.1/build/html/index.html (Reference to explore deploying applications on the KV260) </br>
+
+After you have booted up the board with the Ubuntu image, you need to setup the board for running the model on it. </br>
+
+Step 1 -
+
+
+         
