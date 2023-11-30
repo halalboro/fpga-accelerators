@@ -101,7 +101,8 @@ pkg-config --modversion opencv4
 ```
 
 Step 3 - Creating a directory to store the models </br>
-
+*Note - Documentation on this is available in the Vitis-AI/examples/vai-library directory's readme file, go through Vitis-AI/src/vai-library to get the vitis_ai_library_r3.0.0_images.tar.gz* </br>
+*Note - Also, we are using the densebox_320_320 here instead of the tf2_resnet50* </br>
 ```
 sudo mkdir -p /usr/share/vitis_ai_library/models
 ls /usr/share/vitis_ai_library/models
@@ -122,6 +123,9 @@ sudo xmutil loadapp kv260-benchmark-b4096
 ./test_jpeg_facedetect densebox_320_320 sample_facedetect.jpg
 ```
  
+Very Important - </br>
+The Vitis-AI/examples/vai-library and Vitis-AI/src/vai-library are two directories that will play a major role in letting us run our model on the board. </br>
+Deploying a DPU on the board is necessary to run any model. This is done with the help of the xmutil command. (xdputil is another important command) </br>
 
 
 
