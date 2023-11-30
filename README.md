@@ -88,6 +88,18 @@ After you have booted up the board with the Ubuntu image, you need to set up the
 Step 1 - Run the following commands in the terminal </br>
 
 ```
+git clone https://github.com/Xilinx/Kria-PYNQ.git
+cd Kria-PYNQ/
+sudo bash install.sh -b KV260
+```
+
+```
+git clone DPU-PYNQ
+git clone https://github.com/Xilinx/DPU-PYNQ
+```
+
+```
+pip3 install pynq-dpu --no-build-isolation
 sudo apt install vitis-ai-runtime vitis-ai-library
 sudo apt install build-essential cmake git pkg-config libgtk-3-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev gfortran openexr libatlas-base-dev python3-dev python3-numpy libtbb2 libtbb-dev libunilog1 libgoogle-glog-dev libjson-c-dev
 git clone --branch 3.0 --depth 1 https://github.com/Xilinx/Vitis-AI.git
@@ -117,6 +129,7 @@ Step 4 - Loading the DPU and running the model on a test image
 ```
 cd ~/Documents/Vitis-AI/examples/vai_library/samples/facedetect/
 chmod +x ./build.sh
+/build.sh
 sudo apt install xlnx-firmware-kv260-benchmark-b4096
 sudo xmutil unloadapp
 sudo xmutil loadapp kv260-benchmark-b4096
