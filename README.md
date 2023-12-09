@@ -2,6 +2,14 @@
 A compilation of all the tools and resources that one requires before one can run their own hardware accelerator on an FPGA. </br>
 Our focus is on  documenting the flow of developing a hardware accelerator, from training the neural network on a host to detecting objects in real-time from the webcam feed on a Xilinx KV260 FPGA. This will serve as a good starting point for all the embedded systems/ML enthusiasts who can't figure out a thing from the Vitis-AI documentation (literally me). </br>
 
+Tools used - </br>
+- Vitis AI 3.0
+- Vitis AI 2.5 (for use with DPU PYNQ)
+- DPU PYNQ
+- kria-vitis-platforms (to make a platform for KV260)
+- Vitis-AI-Tutorials
+- Vitis_Libraries
+
 **Setting up your host machine (CPU/GPU)** </br>
 
 Step 1 - Install Docker Engine on your OS (Linux-based) </br>
