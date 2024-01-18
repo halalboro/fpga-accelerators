@@ -30,4 +30,82 @@ Now download this dataset (COCO format) and set it up in the following structure
 
 - Now navigate to *Vitis-AI/model_zoo/model-list/pt_yolox-nano_coco_416_416_1G_3.0/model.yaml* on Vitis-AI 3.0 branch GitHub repository 
 - Download the zip file for the GPU from there or the following link (https://www.xilinx.com/bin/public/openDownload?filename=pt_yolox-nano_coco_416_416_1G_3.0.zip)
-- 
+- Launch your docker image for PyTorch (YOLOvx is a PyTorch model) from the Vitis-AI directory on your desktop.
+- Execute the following commands:
+```
+   conda activate vitis-ai-pytorch
+   pip install --user -r requirements.txt 
+   cd code
+   pip install --user -v -e .
+   cd ..
+```
+- Now, with the environment setup complete, we can copy the data folder we created into the data folder inside the yolovx directory.
+```
+├───code
+│   ├───assets
+│   ├───datasets
+│   ├───demo
+│   │   ├───MegEngine
+│   │   │   ├───cpp
+│   │   │   └───python
+│   │   │       └───models
+│   │   ├───ncnn
+│   │   │   ├───android
+│   │   │   │   ├───app
+│   │   │   │   │   └───src
+│   │   │   │   │       └───main
+│   │   │   │   │           ├───assets
+│   │   │   │   │           ├───java
+│   │   │   │   │           │   └───com
+│   │   │   │   │           │       └───megvii
+│   │   │   │   │           │           └───yoloXncnn
+│   │   │   │   │           ├───jni
+│   │   │   │   │           └───res
+│   │   │   │   │               ├───layout
+│   │   │   │   │               └───values
+│   │   │   │   └───gradle
+│   │   │   │       └───wrapper
+│   │   │   └───cpp
+│   │   ├───ONNXRuntime
+│   │   ├───OpenVINO
+│   │   │   ├───cpp
+│   │   │   └───python
+│   │   └───TensorRT
+│   │       ├───cpp
+│   │       └───python
+│   ├───docs
+│   │   ├───demo
+│   │   └───_static
+│   │       └───css
+│   ├───exps
+│   │   ├───default
+│   │   └───example
+│   │       ├───custom
+│   │       └───yolox_voc
+│   ├───tests
+│   │   └───utils
+│   ├───tools
+│   └───yolox
+│       ├───core
+│       ├───data
+│       │   └───datasets
+│       ├───evaluators
+│       ├───exp
+│       │   └───default
+│       ├───layers
+│       │   └───cocoeval
+│       ├───models
+│       ├───tools
+│       └───utils
+├───data  <---------------------------------------
+│   └───COCO
+├───float
+├───qat
+│   └───convert_qat_results
+│       ├───test
+│       └───__pycache__
+└───quantized
+    └───__pycache__
+```
+- Next, we can change the following parameters in the following files to be able to train our model.
+  
