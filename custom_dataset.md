@@ -208,8 +208,9 @@ Now download this dataset (COCO format) and set it up in the following structure
 - The output will be a .json,.prototxt and .xmodel file.
 
  **Deployment on the KV260 Board**
- - Boot up the board with the Petalinux Image (It has all the required tools preinstalled and it is faster than the Ubuntu Image).
-   Link - 
+ - Boot up the board with the Petalinux Image (It has all the required tools preinstalled and it is faster than the Ubuntu Image). </br>
+   **xilinx-kv260-dpu-v2022.2-v3.0.0.img.gz** </br>
+   Link - https://www.xilinx.com/member/forms/download/design-license-xef.html?filename=xilinx-kv260-dpu-v2022.2-v3.0.0.img.gz
 
  - Go to */root/usr/share/vitis_ai_library* and then navigate into models. If there is no models subdirectory here, create a new one.
  - Make a folder here named "yolox_nano_pt" or navigate into the existing one.
