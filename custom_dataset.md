@@ -160,6 +160,8 @@ Now download this dataset (COCO format) and set it up in the following structure
   # dump xmpdel
   python -m yolox.tools.quant -f ${CFG} -c ${CKPT} -b ${BATCH} -d ${GPU_NUM} --conf 0.001 --quant_mode ${MODE} --quant_dir ${Q_DIR} --is_dump
   ```
+- You can just check the *readme.md* file in the root directory of your model folder. (Steps are the same as described above)
+- Go to */code/docs* for more information in custom_training and other relevant operations.
 - Debugging in quantization step
   - Manually put the *num_classes* as it gives an error with the index
     ```
@@ -206,5 +208,19 @@ Now download this dataset (COCO format) and set it up in the following structure
 - The output will be a .json,.prototxt and .xmodel file.
 
  **Deployment on the KV260 Board**
+ - Boot up the board with the Petalinux Image (It has all the required tools preinstalled and it is faster than the Ubuntu Image).
+   Link - 
+
+ - Go to */root/usr/share/vitis_ai_library* and then navigate into models. If there is no models subdirectory here, create a new one.
+ - Make a folder here named "yolox_nano_pt" or navigate into the existing one.
+ - Now, replace the .json,.prototxt,.xmodel here with the files that you have generated earlier. (You can use scp to transfer files)
+ - Navigate to */home/Vitis-AI/examples/vai_library/samples/yolovx* and follow the instructions in the readme file.
+ - NOTE - Don't forget to change your test image as per your own dataset.
+ - NOTE - Don't forget to launch a dpu application before running any of the mentioned tests in the readme file.
+   ```
+   sudo xmutil listapps
+   sudo xmutil loadapp "app name"
+   ```
+   
  
 
