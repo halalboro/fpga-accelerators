@@ -108,4 +108,103 @@ Now download this dataset (COCO format) and set it up in the following structure
     └───__pycache__
 ```
 - Next, we can change the following parameters in the following files to be able to train our model.
+  - Navigate to */code/run_eval.sh* file
+  - It should look like this
+    
+    ```
+    echo "Conducting test..."
+    export CUDA_VISIBLE_DEVICES=0
+    GPU_NUM=1
+    
+    export LD_LIBRARY_PATH=${PWD}/code:${LD_LIBRARY_PATH}
+    BATCH=8
+    CFG=code/exps/example/custom/yolox_nano_deploy_relu.py
+    CKPT=float/yolox_nano.pth
+    python -m yolox.tools.eval -f ${CFG} -c ${CKPT} -b ${BATCH} -d ${GPU_NUM} --conf 0.001
+    ```
+    Some parameters may be different for your case (GPU_NUM,BATCH,etc.)
+  - Navigate to */code/exps/example/custom* and star this directory. This is because all the bash files use one of  the files from this directory to run. (*yolox_nano_deploy_relu.py*,*yolox_nano_deploy_relu_q.py*,etc.)
+  - Modify *yolox_s.py* as per your case ( *num_classes*,etc.)
+  - Other important files related to our model are stored in *code/tools*. So, do take a look at those python files.
+  - *run_train.sh* should look like this
+    
+    ```
+    echo "Conducting training..."
+    export CUDA_VISIBLE_DEVICES=0
+    GPU_NUM=1
+    BATCH=8
+
+    CFG=code/exps/example/custom/yolox_nano_deploy_relu.py
+    python -m yolox.tools.train -f ${CFG} -d ${GPU_NUM} -b ${BATCH} -o
+    ```
+- After training finishes, the next step is to quantize the model. The *run_quant.sh* file should look like this
+
+  ```
+  export CUDA_VISIBLE_DEVICES=0
+  GPU_NUM=1
   
+  export W_QUANT=1
+  export CUDA_HOME=/usr/local/cuda
+  
+  BATCH=8
+  CFG=code/exps/example/custom/yolox_nano_deploy_relu_q.py
+  CKPT=float/yolox_nano.pth
+  Q_DIR='quantize_result'
+  
+  MODE='calib'
+  python -m yolox.tools.quant -f ${CFG} -c ${CKPT} -b ${BATCH} -d ${GPU_NUM} --conf 0.001 --quant_mode ${MODE} --quant_dir ${Q_DIR}
+  
+  MODE='test'
+  python -m yolox.tools.quant -f ${CFG} -c ${CKPT} -b ${BATCH} -d ${GPU_NUM} --conf 0.001 --quant_mode ${MODE} --quant_dir ${Q_DIR}
+  
+  # dump xmpdel
+  python -m yolox.tools.quant -f ${CFG} -c ${CKPT} -b ${BATCH} -d ${GPU_NUM} --conf 0.001 --quant_mode ${MODE} --quant_dir ${Q_DIR} --is_dump
+  ```
+- Debugging in quantization step
+  - Manually put the *num_classes* as it gives an error with the index
+    ```
+    def get_evaluator(self, batch_size, is_distributed, testdev=False, legacy=False):
+        from yolox.evaluators.coco_evaluator_q import COCOEvaluator
+
+        val_loader = self.get_eval_loader(batch_size, is_distributed, testdev, legacy)
+        evaluator = COCOEvaluator(
+            dataloader=val_loader,
+            img_size=self.test_size,
+            confthre=self.test_conf,
+            nmsthre=self.nmsthre,
+            num_classes=6,
+            testdev=testdev,
+        )
+        return evaluator
+     ```
+  - Make sure that *self.act ='relu'* or else it won't run on the FPGA
+     ```
+     class Exp(MyExp):
+     def __init__(self):
+        super(Exp, self).__init__()
+        self.depth = 0.33
+        self.width = 0.25
+        self.input_size = (416, 416)
+        self.random_size = (10, 20)
+        self.mosaic_scale = (0.5, 1.5)
+        self.test_size = (416, 416)
+        self.mosaic_prob = 0.5
+        self.enable_mixup = False
+        self.exp_name = os.path.split(os.path.realpath(__file__))[1].split(".")[0]
+        self.data_dir = 'data/COCO'
+        # modify 'silu' to 'relu' for deployment on DPU
+        self.act = 'relu'
+      ```
+- Quantizating the model will produce an xmodel file but we are still not done. This xmodel will not run on the FPGA. Using the **VAI_C compiler**, we will have to convert this xmodel output file into another xmodel file along with a prototxt file that is capable of running on the DPU of the KV260. </br>
+  (https://docs.xilinx.com/r/3.0-English/ug1414-vitis-ai/VAI_C-Usage)
+- The following command would work for compiling a pytorch model using the arch.json file for KV260 (/opt/vitis_ai/compiler/arch/DPUCZDX8G/KV260/arch.json)
+  
+  ```
+  vai_c_xir -x /PATH/TO/quantized.xmodel -a /PATH/TO/arch.json -o /OUTPUTPATH -n netname}
+  ```
+  You can find your DPU arch here - https://docs.xilinx.com/r/3.0-English/ug1414-vitis-ai/Vitis-AI-Compiler?tocId=J~B8ebtnE5QkRWqEm2yugw
+- The output will be a .json,.prototxt and .xmodel file.
+
+ **Deployment on the KV260 Board**
+ 
+
