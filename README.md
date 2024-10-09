@@ -1,6 +1,6 @@
 # FPGA-accelerators (in development)
-A compilation of all the tools and resources that one requires before one can run their own hardware accelerator on an FPGA. </br>
-Our focus is on  documenting the flow of developing a hardware accelerator, from training the neural network on a host to detecting objects in real-time from the webcam feed on a Xilinx KV260 FPGA. This will serve as a good starting point for all the embedded systems/ML enthusiasts who can't figure out a thing from the Vitis-AI documentation (literally me). </br>
+A compilation of all the tools and resources that one requires before one can run their hardware accelerator on an FPGA. </br>
+My focus is on  documenting the tool flow of developing a hardware accelerator, from training the neural network on a host CPU to detecting objects in real time from the video feed on an FPGA. This will serve as a good starting point for all the embedded systems/ML enthusiasts who can't figure out a thing from the Vitis-AI documentation (literally me). </br>
 
 Tools used - </br>
 - Vitis AI 3.0
@@ -10,7 +10,11 @@ Tools used - </br>
 - Vitis-AI-Tutorials
 - Vitis_Libraries
 
-**Setting up your host machine (CPU/GPU)** </br>
+Implementation Details - </br>
+- Xilinx KV260 SOM
+- 
+
+**Setting up your host machine (CPU/CPU+GPU)** </br>
 
 Step 1 - Install Docker Engine on your OS (Linux-based) </br>
          https://docs.docker.com/engine/install/ubuntu/ </br>
@@ -29,8 +33,8 @@ Step 3 - Follow this guide to setup Vitis-AI and build a docker image that will 
 Step 1 - Let's try the Resnet50 for Tensorflow2 </br>
          https://github.com/Xilinx/Vitis-AI/tree/3.0/model_zoo/model-list/tf2_resnet50_imagenet_224_224_7.76G_3.0
          
-Inside there's a model.yaml file that has the links for the model for specific cards or, like the one we're going to get, not quantized. </br>
-The model.yaml file also provides us with an xmodel file for KV260 directly, but we will not use it as it gives errors frequently. </br>
+Inside this folder is a "model.yaml" file that has the links for models supported for specific cards (.xmodel) and the float & quantized files that we will use for our implementation. </br>
+The model.yaml file also provides us with an xmodel file for the KV260 directly, but we will not use it as it is full of bugs. </br>
 
 Vitis has a model zoo with a lot of models to test. </br>
 https://github.com/Xilinx/Vitis-AI/tree/3.0/model_zoo </br>
@@ -75,11 +79,11 @@ An explanation of the arguments
     -o : Where we want to save the model after compilation
     -n : the name we're going to give the saved model
 
-And we have xmodel for our KV260. Generating the xmodel completes the model generation on the host machine. Now, we can move to the FPGA board to deploy it.
+And we have an xmodel for our KV260. Generating the xmodel completes the model generation on the host machine. Now, we can move to the FPGA board to deploy it.
 
 
-Method 2 - Quantize the model based on the files provided in the zip. This gives you the flexibility of changing the dataset but it must match the same directory structure and dimensions. </br>
-Simply go through the readme file and follow all the steps sequentially to generate the quantized.h5 yourself. After this, the steps are the same as in Method 1. </br>
+Method 2 - Quantize the model based on the float files. This gives you the flexibility of changing the dataset but it must match the same directory structure and dimensions. </br>
+Simply go through the readme file and follow all the steps sequentially to generate the quantized.h5 yourself. After which the steps are the same as that in Method 1. </br>
 
 https://docs.xilinx.com/r/3.0-English/ug1414-vitis-ai/Quantizing-the-Model?tocId=FE7iDNcwer8ib9O67S~6Uw (More about quantizing the model) </br>
 
@@ -91,7 +95,7 @@ https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-
 
 https://xilinx.github.io/kria-apps-docs/kv260/2022.1/build/html/index.html (Reference to explore deploying applications on the KV260) </br>
 
-After you have booted up the board with the Ubuntu image, you need to set up the board for running the model on it. </br>
+After you have booted up the board with the Ubuntu image, you need to set up the board to run the model on it. </br>
 
 Step 1 - Run the following commands in the terminal </br>
 
@@ -168,7 +172,7 @@ git clone --branch xlnx_rel_v2022.1 --recursive https://github.com/Xilinx/kria-v
 source /tools/Xilinx/Vivado/2022.1/settings64.sh                                                                                                    
 make platform PFM=kv260_ispMipiRx_vcu_DP                                                                                                     
 ```
-This will generate the xpfm file.                                                                                                                           </br>
+This will generate the xpfm project file.                                                                                                                           </br>
 
 To check the location of lib and include:                                                                                                                   </br>
 ```
