@@ -193,7 +193,7 @@ The resizer bit file for KV260 is now generated!
 
 # Custom Dataset Training 
 
-custom_dataset.md
+[custom_dataset.md](https://github.com/halalboro/fpga-accelerators/blob/b9f5574049b3637a625f598aa30cde14999e474c/custom_dataset.md)
 
 
 
