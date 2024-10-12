@@ -29,7 +29,7 @@ I plan to explain the toolflow for these 2 solutions for now (I haven't explored
 
 **Initial Setup:** </br>
 
-**Setting up your host machine (CPU/CPU+GPU)** </br>
+**1. Setting up your host machine (CPU/CPU+GPU)** </br>
 
 Step 1 - Install Docker Engine on your OS (Linux-based) </br>
          https://docs.docker.com/engine/install/ubuntu/ </br>
@@ -43,7 +43,7 @@ Step 3 - Follow this guide to setup Vitis-AI and build a docker image that will 
          *Note - Follow the steps till the "Board Setup" Heading* </br>
          *Note - This blog post is complete when it comes to Vitis-AI and KV260, so you can explore other related posts by the same author as well.* </br>
          
-**Preparing your model**
+**2. Preparing your model**
 
 Step 1 - Let's try the Resnet50 for Tensorflow2 </br>
          https://github.com/Xilinx/Vitis-AI/tree/3.0/model_zoo/model-list/tf2_resnet50_imagenet_224_224_7.76G_3.0
@@ -65,7 +65,7 @@ Download the model - </br>
 Uncompress it- </br>
 ```unzip tf2_resnet50_imagenet_224_224_7.76G_3.0.zip```
 
-Method 1 - This model is already quantized. (Use the quantized.h5)
+**Method 1 - This model is already quantized. (Use the quantized.h5)**
 
 Step 2 - Copy this model to your working directory of the Docker Image (Vitis-AI directory)
 
@@ -97,12 +97,12 @@ An explanation of the arguments
 And we have an xmodel for our KV260. Generating the xmodel completes the model generation on the host machine. Now, we can move to the FPGA board to deploy it.
 
 
-Method 2 - Quantize the model based on the float files. This gives you the flexibility of changing the dataset but it must match the same directory structure and dimensions. </br>
-Simply go through the readme file and follow all the steps sequentially to generate the quantized.h5 yourself. After which the steps are the same as that in Method 1. </br>
+**Method 2 - Quantize the model based on the float files. This gives you the flexibility of changing the dataset but it must match the same directory structure and dimensions. </br>
+Simply go through the readme file and follow all the steps sequentially to generate the quantized.h5 yourself. After which the steps are the same as that in Method 1.** </br>
 
 https://docs.xilinx.com/r/3.0-English/ug1414-vitis-ai/Quantizing-the-Model?tocId=FE7iDNcwer8ib9O67S~6Uw (More about quantizing the model) </br>
 
-**Setting up the board (KV260)** </br>
+**3. Setting up the board (KV260)** </br>
 
 Boot up the board with the following Ubuntu image - https://ubuntu.com/certified/202104-28895 <br>
 https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/setting-up-the-sd-card-image.html (reference) </br>
