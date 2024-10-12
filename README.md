@@ -1,4 +1,4 @@
-# FPGA-accelerators (in development)
+# FPGA-accelerators [Not updated to the newer version of Vitis-AI Tool]
 A compilation of all the tools and resources that one requires before one can run their hardware accelerator on an FPGA. </br>
 My focus is on  documenting the tool flow of developing a hardware accelerator, from training the neural network on a host CPU to detecting objects in real time from the video feed on an FPGA. This will serve as a good starting point for all the embedded systems/ML enthusiasts who can't figure out a thing from the Vitis-AI documentation (literally me). </br>
 
@@ -16,8 +16,8 @@ I plan to explain the toolflow for these 2 solutions for now (I haven't explored
 
 
 **Implementation Details -** </br>
-- Xilinx KV260 SOM
-- Host CPU with a GPU (Linux) for training, quantization and compilation 
+- Xilinx KV260 SOM as the accelerator
+- Host CPU (Linux) with a GPU for training, quantization and compilation 
 
 **Tools used -** </br>
 - Vitis AI 3.0
