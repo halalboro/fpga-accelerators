@@ -45,8 +45,8 @@ Step 3 - Follow this guide to setup Vitis-AI and build a docker image that will 
          
 **2. Preparing your model**
 
-Step 1 - Let's try the Resnet50 for Tensorflow2 </br>
-         https://github.com/Xilinx/Vitis-AI/tree/3.0/model_zoo/model-list/tf2_resnet50_imagenet_224_224_7.76G_3.0
+Let's try the Resnet50 for Tensorflow2 </br>
+https://github.com/Xilinx/Vitis-AI/tree/3.0/model_zoo/model-list/tf2_resnet50_imagenet_224_224_7.76G_3.0
          
 Inside this folder is a "model.yaml" file that has the links for models supported for specific cards (.xmodel) and the float & quantized files that we will use for our implementation. </br>
 The model.yaml file also provides us with an xmodel file for the KV260 directly, but we will not use it as it is full of bugs. </br>
@@ -67,9 +67,9 @@ Uncompress it- </br>
 
 **Method 1 - This model is already quantized. (Use the quantized.h5)**
 
-Step 2 - Copy this model to your working directory of the Docker Image (Vitis-AI directory)
+Step 1 - Copy this model to your working directory of the Docker Image (Vitis-AI directory)
 
-Step 3 - Launch the docker image for tensorflow2
+Step 2 - Launch the docker image for tensorflow2
 
 Now that we're in the docker image, let's activate the conda environment
 
@@ -97,8 +97,9 @@ An explanation of the arguments
 And we have an xmodel for our KV260. Generating the xmodel completes the model generation on the host machine. Now, we can move to the FPGA board to deploy it.
 
 
-**Method 2 - Quantize the model based on the float files. This gives you the flexibility of changing the dataset but it must match the same directory structure and dimensions. </br>
-Simply go through the readme file and follow all the steps sequentially to generate the quantized.h5 yourself. After which the steps are the same as that in Method 1.** </br>
+**Method 2 - Quantize the model based on the float files.** 
+This gives you the flexibility of changing the dataset but it must match the same directory structure and dimensions. </br>
+Simply go through the readme file and follow all the steps sequentially to generate the quantized.h5 yourself. After which the steps are the same as that in Method 1. </br>
 
 https://docs.xilinx.com/r/3.0-English/ug1414-vitis-ai/Quantizing-the-Model?tocId=FE7iDNcwer8ib9O67S~6Uw (More about quantizing the model) </br>
 
