@@ -8,9 +8,9 @@ When it comes to developing such an accelerator on an FPGA, there are three solu
 - **Vitis HLS Solution**
 
 **Projects that I worked on while exploring these solutions-**
-1. I have had the opportunity to explore the DPU-PYNQ Solution as part of an hobby project which involved deploying a YOLOv3 based FPGA accelerator for real-time webcam feed object detection on the Ultra96v2 running a PYNQ overlay with the DPU IPs as part of an extension. </br>
+1. I have had the opportunity to explore the DPU-PYNQ Solution as part of an hobby project which involved deploying **a YOLOv3 based FPGA accelerator for real-time webcam feed object detection on the Ultra96v2** running a PYNQ overlay with the DPU IPs as part of an extension. </br>
 
-2. I also had the oppotunity to explore the DPU-VitisAI Solution which is nothing but just the DPU Solution (Vitis AI tool is inherent to using the DPU IP) as part of an official project at my university with a team to develop a FPGA Accelerated CBAM-YOLOX for High Throughput Wildfire Detection using UAV Platforms. A paper is in the pipeline for the same, so I will link it here as soon as it is finished. </br>
+2. I also had the oppotunity to explore the DPU-VitisAI Solution which is nothing but just the DPU Solution (Vitis AI tool is inherent to using the DPU IP) as part of an official project at my university with a team to develop **a FPGA Accelerated CBAM-YOLOX for High Throughput Wildfire Detection using UAV Platforms**. A paper is in the pipeline for the same, so I will link it here as soon as it is finished. </br>
 
 I plan to explain the toolflow for these 2 solutions for now (I haven't explored the Vitis HLS solution for making such accelerators yet) </br>
 
