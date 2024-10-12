@@ -27,7 +27,7 @@ I plan to explain the toolflow for these 2 solutions for now (I haven't explored
 - Vitis-AI-Tutorials
 - Vitis_Libraries
 
-**Initial Setup:** </br>
+# DPU Solution
 
 **1. Setting up your host machine (CPU/CPU+GPU)** </br>
 
@@ -168,8 +168,11 @@ Very Important - </br>
 The Vitis-AI/examples/vai-library and Vitis-AI/src/vai-library are two directories that will play a major role in letting us run our model on the board. </br>
 Deploying a DPU on the board is necessary to run any model. This is done with the help of the xmutil command. (xdputil is another important command) </br>
 
+# DPU-PYNQ Solution on the Ultra96v2
 
-**Kria-Vitis-Platforms** </br>
+https://community.element14.com/members-area/personalblogs/b/ralph-yamamoto-s-blog/posts/dpu-pynq-on-ultra96v2 
+
+# Kria-Vitis-Platforms
 Links:                                                                                                                                                      </br>
 https://xilinx.github.io/Vitis_Libraries/vision/2022.1/overview.html#getting-started-with-hls                                                               </br>
 https://github.com/mariodruiz/PYNQ-HelloWorld/tree/2022.1/boards                                                        (Clone PYNQ-HelloWorld repo)        </br>          
