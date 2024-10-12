@@ -2,7 +2,24 @@
 A compilation of all the tools and resources that one requires before one can run their hardware accelerator on an FPGA. </br>
 My focus is on  documenting the tool flow of developing a hardware accelerator, from training the neural network on a host CPU to detecting objects in real time from the video feed on an FPGA. This will serve as a good starting point for all the embedded systems/ML enthusiasts who can't figure out a thing from the Vitis-AI documentation (literally me). </br>
 
-Tools used - </br>
+When it comes to developing such an accelerator on an FPGA, there are three solutions that one could follow to reach the final product-
+- **DPU-PYNQ Solution**
+- **DPU-VitisAI Solution**
+- **Vitis HLS Solution**
+
+**Projects that I worked on while exploring these solutions-**
+1. I have had the opportunity to explore the DPU-PYNQ Solution as part of an hobby project which involved deploying a YOLOv3 based FPGA accelerator for real-time webcam feed object detection on the Ultra96v2 running a PYNQ overlay with the DPU IPs as part of an extension. </br>
+
+2. I also had the oppotunity to explore the DPU-VitisAI Solution which is nothing but just the DPU Solution (Vitis AI tool is inherent to using the DPU IP) as part of an official project at my university with a team to develop a FPGA Accelerated CBAM-YOLOX for High Throughput Wildfire Detection using UAV Platforms. A paper is in the pipeline for the same, so I will link it here as soon as it is finished. </br>
+
+I plan to explain the toolflow for these 2 solutions for now (I haven't explored the Vitis HLS solution for making such accelerators yet) </br>
+
+
+**Implementation Details -** </br>
+- Xilinx KV260 SOM
+- Host CPU with a GPU (Linux) for training, quantization and compilation 
+
+**Tools used -** </br>
 - Vitis AI 3.0
 - Vitis AI 2.5 (for use with DPU PYNQ)
 - DPU PYNQ
@@ -10,9 +27,7 @@ Tools used - </br>
 - Vitis-AI-Tutorials
 - Vitis_Libraries
 
-Implementation Details - </br>
-- Xilinx KV260 SOM
-- 
+**Initial Setup:** </br>
 
 **Setting up your host machine (CPU/CPU+GPU)** </br>
 
