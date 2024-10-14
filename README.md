@@ -59,7 +59,9 @@ Step 2 - It also has a downloader script that simplifies the selection and downl
 _NOTE - You can read more about the versions, boards and how to download them here [https://xilinx.github.io/Vitis-AI/3.0/html/docs/workflow-model-zoo.html]_ </br>
 
 Step 3 - Download the model - </br>
-```wget https://www.xilinx.com/bin/public/openDownload?filename=tf2_resnet50_imagenet_224_224_7.76G_3.0.zip -O tf2_resnet50_imagenet_224_224_7.76G_3.0.zip``` </br>
+```
+wget https://www.xilinx.com/bin/public/openDownload?filename=tf2_resnet50_imagenet_224_224_7.76G_3.0.zip -O tf2_resnet50_imagenet_224_224_7.76G_3.0.zip
+``` 
 
 Step 4 - Uncompress it- </br>
 ```unzip tf2_resnet50_imagenet_224_224_7.76G_3.0.zip```
@@ -82,7 +84,9 @@ Step 4 - Compilation
 
 - Compile the model for KV260 DPU
 
-  ```vai_c_tensorflow2 -m tf2_resnet50_imagenet_224_224_7.76G_3.0/quantized/quantized.h5 -a /opt/vitis_ai/compiler/arch/DPUCZDX8G/KV260/arch.json -o tf2_resnet50_imagenet_224_224_7.76G_3.0/output -n model_compiled```
+  ```
+  vai_c_tensorflow2 -m tf2_resnet50_imagenet_224_224_7.76G_3.0/quantized/quantized.h5 -a /opt/vitis_ai/compiler/arch/DPUCZDX8G/KV260/arch.json -o tf2_resnet50_imagenet_224_224_7.76G_3.0/output -n model_compiled
+  ```
 
 _NOTE - https://docs.xilinx.com/r/3.0-English/ug1414-vitis-ai/VAI_C-Usage (More about vai_c)_ </br>
 
