@@ -17,6 +17,7 @@ I plan to explain the tool flow for these 2 solutions for now (I haven't explore
 
 **Implementation Details -** </br>
 - Xilinx KV260 SOM as the accelerator
+- Avnet Ultra96v2 as the accelerator
 - Host CPU (Linux) with a GPU for training, quantization and compilation 
 
 **Tools used -** </br>
