@@ -3,8 +3,8 @@ A compilation of all the tools and resources that one requires before one can ru
 My focus is on  documenting the tool flow of developing a hardware accelerator, from training the neural network on a host CPU to detecting objects in real time from the video feed on an FPGA. This will serve as a good starting point for all the embedded systems/ML enthusiasts who can't figure out a thing from the Vitis-AI documentation (literally me). </br>
 
 When it comes to developing such an accelerator on an FPGA, there are three solutions that one could follow to reach the final product-
-- **DPU-PYNQ Solution**
 - **DPU-VitisAI Solution**
+- **DPU-PYNQ Solution**
 - **Vitis HLS Solution**
 
 **Projects that I worked on while exploring these solutions-**
