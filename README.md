@@ -223,7 +223,7 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
 https://github.com/Xilinx/Vitis-Tutorials                                                                               (Vitis Tutorials)                   </br>
 https://xilinx.github.io/kria-apps-docs/kv260/2022.1/build/html/docs/build_vitis_platform.html?highlight=xpfm           (how to generate xpfm)              </br>
 
-Terminal-                                                                                                                                                   </br>
+Step 1 -                                                                                                                                                   </br>
 ```
 git clone --branch xlnx_rel_v2022.1 --recursive https://github.com/Xilinx/kria-vitis-platforms.git                      
 source /tools/Xilinx/Vivado/2022.1/settings64.sh                                                                                                    
@@ -237,7 +237,7 @@ pkg-config --cflags --libs opencv4                                              
 ```
 
 Very Important: (Required to run your scripts involving generation of bit file)                                                                    </br>
-Terminal-                                                                                                                                                   </br>
+Step 2 -                                                                                                                                                   </br>
 ```
 source /tools/Xilinx/Vivado/2022.1/settings64.sh                                                                                                            
 source /opt/xilinx/xrt/setup.sh                                                                                                                             
@@ -246,7 +246,7 @@ export OPENCV_INCLUDE=/usr/local/include/opencv4
 export OPENCV_LIB=/usr/local/lib                                                                                                                            
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib                                                                                                      
 ```
-Run this in the directory of your project                                                                                                                   </br>
+Run make command                                                                                                                 </br>
 ```
 make 
 ```
