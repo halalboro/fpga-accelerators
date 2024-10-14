@@ -190,11 +190,10 @@ https://www.hackster.io/AlbertaBeef/ultra96-v2-adding-support-for-ros2-8ba68d?au
 **Voilà! you have DPU working on your Ultra96v2.** </br>
 
 # DPU-PYNQ Solution on the Ultra96v2
-I realised that I could also try the PYNQ overlay and DPU-PYNQ (an upgrade) and their solution to deploy a DNN on the Ultra96v2 which is why I majorly followed this guide to run YOLOv3 on the DPU through a Jupyter server and perform real-time object detection from my webcam input. </br>
+I also tried out the DPU-PYNQ overlay and their solution to deploy a DNN on the Ultra96v2 through this guide which helped me run YOLOv3 on the DPU through a Jupyter server and perform real-time object detection from my webcam input: </br>
 
 https://community.element14.com/members-area/personalblogs/b/ralph-yamamoto-s-blog/posts/dpu-pynq-on-ultra96v2 </br>
 
-Honestly, this process was much simpler than the DPU solution and I would use this solution again for running such DNNs. </br>
 
 # Kria-Vitis-Platforms
 Links:                                                                                                                                                      </br>
