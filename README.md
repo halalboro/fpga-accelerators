@@ -13,9 +13,6 @@ When it comes to developing such an accelerator on an FPGA, there are three solu
 
 2. I also had the opportunity to explore the DPU-VitisAI Solution which is nothing but just the DPU Solution (Vitis AI tool is inherent to using the DPU IP) as part of an official project at my university with a team to develop **a FPGA Accelerated CBAM-YOLOX for High Throughput Wildfire Detection using UAV Platforms**. A paper is in the pipeline for the same, so I will link it here as soon as it is finished. </br>
 
-I plan to explain the tool flow for these 2 solutions for now (I haven't explored the Vitis HLS solution for making such accelerators yet) </br>
-
-
 **Implementation Details -** </br>
 - Xilinx KV260 SOM as the accelerator
 - Avnet Ultra96v2 as the accelerator
