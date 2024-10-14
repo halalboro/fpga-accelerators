@@ -175,12 +175,12 @@ I started with the DNNDK tool after clicking on the first link that popped up re
 1. I followed this guide to setup the foundational design for the Ultra96v2 </br>
 https://www.hackster.io/AlbertaBeef/zuboard-building-the-foundational-designs-f114d5 </br>
 
-   **Output-** I followed the above guide to create the foundational design, on which I will later build the advanced design, which has Vitis AI in it. The base OS which was the output of this guide worked as expected. </br>
+   **Output-** I followed the above guide to create the foundational design, on which I will later build the advanced design with Vitis-AI in it. The base OS which was the output of this guide worked as expected. </br>
 
 2. I moved to follow this guide, which is a full guide on how to set up Vitis AI 3.0 on Ultra96v2: </br>
 https://www.hackster.io/AlbertaBeef/ultra96-v2-adding-support-for-vitis-ai-3-0-704799 </br>
 
-_NOTE - When you get to making the platform project, I hope that you have a swap file in your host CPU's OS as Vivado will probably eat through all the RAM and hang your system during the synthesis of the platform project._ </br>
+   _NOTE - When you get to making the platform project, I hope that you have a swap file in your host CPU's OS as Vivado will probably eat through all the RAM and hang your system during the synthesis of the platform project._ </br>
 
 3. However, I faced some issues with building the OS for the Ultra96v2 down the road (Adding the Vitis-AI yocto recipes) which is why I abandoned the process and just picked up the OS from the person who wrote the blog. [You are free to try it yourself if you want but I won't recommend doing it] </br>
 https://www.hackster.io/AlbertaBeef/ultra96-v2-adding-support-for-ros2-8ba68d?auth_token=6d7e7ae101ef33c3b16e9a5aa25a23b4&#toc-pre-built-sd-image-12 </br>
