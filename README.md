@@ -175,7 +175,7 @@ I started with the DNNDK tool after clicking on the first link that popped up re
 1. I followed this guide to setup the foundational design for the Ultra96v2 </br>
 https://www.hackster.io/AlbertaBeef/zuboard-building-the-foundational-designs-f114d5 </br>
 
-**Output-** I followed the above guide to create the foundational design, on which I will later build the advanced design, which has Vitis AI in it. The base OS which was the output of this guide worked as expected. </br>
+   **Output-** I followed the above guide to create the foundational design, on which I will later build the advanced design, which has Vitis AI in it. The base OS which was the output of this guide worked as expected. </br>
 
 2. I moved to follow this guide, which is a full guide on how to set up Vitis AI 3.0 on Ultra96v2: </br>
 https://www.hackster.io/AlbertaBeef/ultra96-v2-adding-support-for-vitis-ai-3-0-704799 </br>
