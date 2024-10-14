@@ -64,7 +64,9 @@ wget https://www.xilinx.com/bin/public/openDownload?filename=tf2_resnet50_imagen
 ``` 
 
 Step 4 - Uncompress it- </br>
-```unzip tf2_resnet50_imagenet_224_224_7.76G_3.0.zip```
+```
+unzip tf2_resnet50_imagenet_224_224_7.76G_3.0.zip
+```
 
 **Method 1 - Quantized Model (Use the quantized.h5)**
 
@@ -74,13 +76,17 @@ Step 2 - Launch the docker image for tensorflow2
 
 Step 3 - Activate the conda environment
 
-```conda activate vitis-ai-tensorflow2```
+```
+conda activate vitis-ai-tensorflow2
+```
 
 Step 4 - Compilation
 
 - First, let's create an output directory to hold the files
 
-  ```mkdir tf2_resnet50_imagenet_224_224_7.76G_3.0/output```
+  ```
+  mkdir tf2_resnet50_imagenet_224_224_7.76G_3.0/output
+  ```
 
 - Compile the model for KV260 DPU
 
