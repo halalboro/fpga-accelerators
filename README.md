@@ -49,7 +49,8 @@ Step 3 - Follow this guide to setup Vitis-AI and build a docker image that will 
 Let's try the Resnet50 for Tensorflow2 from the Model Zoo</br>
 **Link to Resnet50:** https://github.com/Xilinx/Vitis-AI/tree/3.0/model_zoo/model-list/tf2_resnet50_imagenet_224_224_7.76G_3.0
 
-Step 1 - Inside this folder is a ```model.yaml``` file that has the links for models supported for specific cards (.xmodel) and the float & quantized files that we will use for our implementation. </br>
+Step 1 - Inside this folder is a ```model.yaml``` file that has the links for models supported for specific cards (```.xmodel```) and the float & quantized files that we will use for our implementation. </br>
+
 _NOTE - The ```model.yaml``` file also provides us with an xmodel file for the KV260 directly, but we will not use it as it is full of bugs._ </br>
 
 Step 2 - It also has a downloader script that simplifies the selection and download of the model. But in my case, I did it manually. </br>
@@ -59,6 +60,7 @@ _NOTE - You can read more about the versions, boards and how to download them he
 
 Step 3 - Download the model - </br>
 ```wget https://www.xilinx.com/bin/public/openDownload?filename=tf2_resnet50_imagenet_224_224_7.76G_3.0.zip -O tf2_resnet50_imagenet_224_224_7.76G_3.0.zip``` </br>
+
 Step 4 - Uncompress it- </br>
 ```unzip tf2_resnet50_imagenet_224_224_7.76G_3.0.zip```
 
@@ -76,11 +78,11 @@ Step 4 - Compilation
 
 - First, let's create an output directory to hold the files
 
-```mkdir tf2_resnet50_imagenet_224_224_7.76G_3.0/output```
+  ```mkdir tf2_resnet50_imagenet_224_224_7.76G_3.0/output```
 
 - Compile the model for KV260 DPU
 
-```vai_c_tensorflow2 -m tf2_resnet50_imagenet_224_224_7.76G_3.0/quantized/quantized.h5 -a /opt/vitis_ai/compiler/arch/DPUCZDX8G/KV260/arch.json -o tf2_resnet50_imagenet_224_224_7.76G_3.0/output -n model_compiled```
+  ```vai_c_tensorflow2 -m tf2_resnet50_imagenet_224_224_7.76G_3.0/quantized/quantized.h5 -a /opt/vitis_ai/compiler/arch/DPUCZDX8G/KV260/arch.json -o tf2_resnet50_imagenet_224_224_7.76G_3.0/output -n model_compiled```
 
 _NOTE - https://docs.xilinx.com/r/3.0-English/ug1414-vitis-ai/VAI_C-Usage (More about vai_c)_ </br>
 
@@ -91,21 +93,25 @@ An explanation of the arguments
     -o : Where we want to save the model after compilation
     -n : the name we're going to give the saved model
 
-**Cheers! We have an xmodel for our KV260. Generating the xmodel completes the model generation on the host machine. Now, we can move to the FPGA board to deploy it.**
+_**Cheers! We have an xmodel for our KV260. Generating the xmodel completes the model generation on the host machine. Now, we can move to the FPGA board to deploy it.**_
 
 
 **Method 2 - Quantize the model based on the float files** </br>
 This gives us the flexibility of changing the dataset but it must match the same directory structure and dimensions. 
+
 Step 1 - Simply go through the readme file and follow all the steps sequentially to generate the quantized.h5 yourself. 
+
 Step 2 - Go back to Method 1. </br>
 
 _NOTE - https://docs.xilinx.com/r/3.0-English/ug1414-vitis-ai/Quantizing-the-Model?tocId=FE7iDNcwer8ib9O67S~6Uw (More about quantizing the model)_ </br>
 
 **3. Setting up the board (KV260)** </br>
 
-Step 1 - Boot up the board with the following Ubuntu image - https://ubuntu.com/certified/202104-28895 <br>
-https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/setting-up-the-sd-card-image.html (reference) </br>
-*Note - You could also use petalinux image* </br>
+Step 1 - Boot up the board with the following Ubuntu image - https://ubuntu.com/certified/202104-28895 </br>
+
+**Reference:** https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/setting-up-the-sd-card-image.html </br>
+
+_NOTE - You could also use petalinux image_ </br>
 
 _NOTE - https://xilinx.github.io/kria-apps-docs/kv260/2022.1/build/html/index.html (Reference to explore deploying applications on the KV260)_ </br>
 
@@ -163,8 +169,8 @@ sudo xmutil loadapp kv260-benchmark-b4096
 ```
  
 Very Important Note - </br>
-The Vitis-AI/examples/vai-library and Vitis-AI/src/vai-library are two directories that will play a major role in letting us run our model on the board. </br>
-Deploying a DPU on the board is necessary to run any model. This is done with the help of the xmutil command. (xdputil is another important command) </br>
+The ```Vitis-AI/examples/vai-library``` and ```Vitis-AI/src/vai-library``` are two directories that will play a major role in letting us run our model on the board. </br>
+Deploying a DPU on the board is necessary to run any model. This is done with the help of the ```xmutil``` command. (```xdputil``` is another important command) </br>
 
 # DPU Solution on the Ultra96v2
 I started with the DNNDK tool after clicking on the first link that popped up related to running DNNs on Ultra96v2. After a lot of internet surfing and testing on the board which included running four different OSes in the hopes that one would support the DNNDK tool, I came to the bitter conclusion that - </br>
