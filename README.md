@@ -180,7 +180,9 @@ sudo xmutil loadapp kv260-benchmark-b4096
  
 Very Important Note - </br>
 The ```Vitis-AI/examples/vai-library``` and ```Vitis-AI/src/vai-library``` are two directories that will play a major role in letting us run our model on the board. </br>
-Deploying a DPU on the board is necessary to run any model. This is done with the help of the ```xmutil``` command. (```xdputil``` is another important command) </br>
+Important Commands - </br>
+```xdputil``` : https://docs.amd.com/r/en-US/ug1354-xilinx-ai-sdk/Using-the-xdputil-Tool </br>
+```xmutil``` : https://github.com/Xilinx/xmutil
 
 # DPU Solution on the Ultra96v2
 I started with the DNNDK tool after clicking on the first link that popped up related to running DNNs on Ultra96v2. After a lot of internet surfing and testing on the board which included running four different OSes in the hopes that one would support the DNNDK tool, I came to the bitter conclusion that - </br>
