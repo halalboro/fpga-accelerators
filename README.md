@@ -185,9 +185,9 @@ Step 2 - Follow the Petalinux Flow guide by Xilinx and then run the SmartCam App
 
 Step 3 - You can explore the other applications or even run the benchmark application to just work with the DPU IP and run your models on them.
 
-Step 4 - Making your own application (more on this later)
+Step 4 - Making your own application _(more on this later!)_
 
-**Important -** If you wish to make your petalinux image with some preprocessing/postprocessing to the DPU IP in your block design, then refer to this doc - </br>
+**Important -** If you wish to make your petalinux image with the DPU IP in your block design, then refer to this document - </br>
 **DPU IP Vivado:** https://github.com/Xilinx/Vitis-AI/blob/3.0/dpu/ref_design_docs/README_DPUCZ_Vivado.md 
 
 Very Important Note - </br>
