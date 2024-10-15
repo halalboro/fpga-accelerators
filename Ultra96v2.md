@@ -25,3 +25,4 @@ I also tried out the DPU-PYNQ overlay and their solution to deploy a DNN on the 
 
 https://community.element14.com/members-area/personalblogs/b/ralph-yamamoto-s-blog/posts/dpu-pynq-on-ultra96v2 </br>
 
+**Another Reference:** https://github.com/Xilinx/DPU-PYNQ/blob/master/pynq_dpu/notebooks/dpu_yolov3.ipynb
