@@ -3,6 +3,7 @@ _**A compilation of all the tools, resources and tutorials that one requires to 
 
 My focus is on documenting the tool flow of developing a hardware accelerator, from training the neural network on a host CPU to detecting objects in real-time from the video feed on an FPGA. This will serve as a good starting point for all the embedded systems/ML enthusiasts who can't figure out a thing from the Vitis-AI documentation (literally me). </br>
 
+I have to put a link to this here - https://xilinx-wiki.atlassian.net/wiki/spaces/A/overview?homepageId=18844350 [ The motherload of Xilinx Resources ]
 When it comes to developing such an accelerator on an FPGA, there are three solutions that one could follow to reach the final product-
 - **DPU-VitisAI Solution**
 - **DPU-PYNQ Solution**
@@ -115,13 +116,11 @@ Step 2 - Go back to Method 1. </br>
 
 _NOTE - https://docs.xilinx.com/r/3.0-English/ug1414-vitis-ai/Quantizing-the-Model?tocId=FE7iDNcwer8ib9O67S~6Uw (More about quantizing the model)_ </br>
 
-**3. Setting up the board (KV260)** </br>
+**3. Setting up the board (KV260) [Ubuntu Flow]** </br>
 
 Step 1 - Boot up the board with the following Ubuntu image - https://ubuntu.com/certified/202104-28895 [ubuntu-based linux]</br>
 
-_NOTE - You could also use this petalinux image [recommended as this is embedded Linux (efficient)]_ </br>
-
-**Petalinux Image:** https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/setting-up-the-sd-card-image.html </br>
+**Reference:** https://www.amd.com/en/products/system-on-modules/kria/k26/kv260-vision-starter-kit/getting-started-ubuntu/setting-up-the-sd-card-image.html </br>
 
 _NOTE - https://xilinx.github.io/kria-apps-docs/kv260/2022.1/build/html/index.html (Reference to explore deploying applications on the KV260)_ </br>
 
@@ -177,7 +176,20 @@ sudo xmutil unloadapp
 sudo xmutil loadapp kv260-benchmark-b4096
 ./test_jpeg_facedetect densebox_320_320 sample_facedetect.jpg
 ```
- 
+
+**4. Setting up the board (KV260) [Petalinux Flow]** </br>
+
+Step 1 - Boot up the board with the following Petalinux image (search for the SD Card image for your board here) - https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/2950595219/2024.1+Release [embedded linux]</br>
+
+Step 2 - Follow the Petalinux Flow guide by Xilinx and then run the SmartCam Application for yourself [https://www.amd.com/en/products/system-on-modules/kria/k26/kv260-vision-starter-kit/getting-started/setting-up-the-sd-card-image.html] 
+
+Step 3 - You can explore the other applications or even run the benchmark application to just work with the DPU IP and run your models on them.
+
+Step 4 - Making your own application (more on this later)
+
+**Important -** If you wish to make your petalinux image with some preprocessing/postprocessing to the DPU IP in your block design, then refer to this doc - </br>
+**DPU IP Vivado:** https://github.com/Xilinx/Vitis-AI/blob/3.0/dpu/ref_design_docs/README_DPUCZ_Vivado.md 
+
 Very Important Note - </br>
 The ```Vitis-AI/examples/vai-library``` and ```Vitis-AI/src/vai-library``` are two directories that will play a major role in letting us run our model on the board. </br>
 Important Commands - </br>
@@ -259,7 +271,7 @@ _**The resizer bit file for KV260 is now generated!**_
 
 # Vitis HLS Solution
 
-The fine-grained solution for accelerators on FPGAs as it gives the user control over every little parameter.
+The fine-grained solution for accelerators on FPGAs gives the user control over every little parameter.
 
 Coming sooner than you think!
 
