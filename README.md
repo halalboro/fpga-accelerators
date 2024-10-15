@@ -107,9 +107,9 @@ _**Cheers! We have an xmodel for our KV260. Generating the xmodel completes the 
 
 
 **Method 2 - Quantize the model based on the float files** </br>
-This gives us the flexibility of changing the dataset but it must match the same directory structure and dimensions. 
+This allows us to change the dataset but it must match the same directory structure and dimensions. 
 
-Step 1 - Simply go through the readme file and follow all the steps sequentially to generate the quantized.h5 yourself. 
+Step 1 - Read the readme file and follow all the steps sequentially to generate the quantized.h5 yourself. 
 
 Step 2 - Go back to Method 1. </br>
 
@@ -117,11 +117,11 @@ _NOTE - https://docs.xilinx.com/r/3.0-English/ug1414-vitis-ai/Quantizing-the-Mod
 
 **3. Setting up the board (KV260)** </br>
 
-Step 1 - Boot up the board with the following Ubuntu image - https://ubuntu.com/certified/202104-28895 </br>
+Step 1 - Boot up the board with the following Ubuntu image - https://ubuntu.com/certified/202104-28895 [ubuntu-based linux]</br>
 
-**Reference:** https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/setting-up-the-sd-card-image.html </br>
+_NOTE - You could also use this petalinux image [recommended as this is embedded Linux (efficient)]_ </br>
 
-_NOTE - You could also use petalinux image_ </br>
+**Petalinux Image:** https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/setting-up-the-sd-card-image.html </br>
 
 _NOTE - https://xilinx.github.io/kria-apps-docs/kv260/2022.1/build/html/index.html (Reference to explore deploying applications on the KV260)_ </br>
 
