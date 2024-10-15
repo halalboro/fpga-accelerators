@@ -48,5 +48,16 @@ The fine-grained solution for accelerators on FPGAs gives the user control over 
 
 Coming sooner than you think!
 
+# DPU IP
 
-         
+**All about the DPU IP:** https://docs.amd.com/r/en-US/pg338-dpu/Introduction?tocId=3xsG16y_QFTWvAJKHbisEw
+
+# Programming APIs
+
+**Types -** API_0, API_1, API_2, API_3, ONNX Runtime
+
+**About the APIs:** https://docs.amd.com/r/en-US/ug1354-xilinx-ai-sdk/Programming-Examples
+
+**More about the APIs and how to use them (C++ and Python):** https://docs.amd.com/r/3.0-English/ug1414-vitis-ai/Programming-with-VART
+
+For a brief understanding, the DPU-PYNQ Solution on Ultra96v2 made use of the API_0 [in Python obv] and my most recent project on the CBAM-YOLOX (custom model) made use of the API_3 [in C++ :( ]. The DPU Solution highlights the use of API_1 (Simplest one). However, ONNX Runtime has taken the spotlight now.
