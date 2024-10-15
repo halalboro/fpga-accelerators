@@ -225,13 +225,13 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
 https://github.com/Xilinx/Vitis-Tutorials                                                                               (Vitis Tutorials)                   </br>
 https://xilinx.github.io/kria-apps-docs/kv260/2022.1/build/html/docs/build_vitis_platform.html?highlight=xpfm           (how to generate xpfm)              </br>
 
-Step 1 -                                                                                                                                                   </br>
+Step 1 - Generate the xpfm project files                                                                                                                                                  </br>
 ```
 git clone --branch xlnx_rel_v2022.1 --recursive https://github.com/Xilinx/kria-vitis-platforms.git                      
 source /tools/Xilinx/Vivado/2022.1/settings64.sh                                                                                                    
 make platform PFM=kv260_ispMipiRx_vcu_DP                                                                                                     
 ```
-This will generate the xpfm project file                                                                                                                           </br>
+                                                                                                                           </br>
 
 To check the location of lib and include:                                                                                                                   </br>
 ```
@@ -247,11 +247,11 @@ export OPENCV_INCLUDE=/usr/local/include/opencv4
 export OPENCV_LIB=/usr/local/lib                                                                                                                            
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib                                                                                                      
 ```
-Run make command                                                                                                                 </br>
+Run make command -                                                                                                                </br>
 ```
 make 
 ```
-The resizer bit file for KV260 is now generated!                                                                                                                  
+_**The resizer bit file for KV260 is now generated!**_                                                                                                                  
 
 # Custom Dataset Training 
 
