@@ -231,14 +231,13 @@ git clone --branch xlnx_rel_v2022.1 --recursive https://github.com/Xilinx/kria-v
 source /tools/Xilinx/Vivado/2022.1/settings64.sh                                                                                                    
 make platform PFM=kv260_ispMipiRx_vcu_DP                                                                                                     
 ```
-This will generate the xpfm project file.                                                                                                                           </br>
+This will generate the xpfm project file                                                                                                                           </br>
 
 To check the location of lib and include:                                                                                                                   </br>
 ```
 pkg-config --cflags --libs opencv4                                                                                                                          </br>
 ```
 
-Very Important: (Required to run your scripts involving generation of bit file)                                                                    </br>
 Step 2 -                                                                                                                                                   </br>
 ```
 source /tools/Xilinx/Vivado/2022.1/settings64.sh                                                                                                            
