@@ -61,8 +61,8 @@ Coming sooner than you think!
 
 **More about the APIs and how to use them (C++ and Python):** https://docs.amd.com/r/3.0-English/ug1414-vitis-ai/Programming-with-VART
 
-For a brief understanding, the DPU-PYNQ Solution on Ultra96v2 made use of the API_0 [in Python obv] and my most recent project on the CBAM-YOLOX (custom model) made use of the API_3 [in C++]. 
+For a brief understanding, the **DPU-PYNQ Solution on Ultra96v2** made use of the API_0 [in Python obv] and my most recent project on **the CBAM-YOLOX (custom model) **made use of the API_3 [in C++]. 
 
-The DPU Solution highlights the use of API_1 (Simplest one). 
+**The DPU Solution** highlights the use of API_1 (Simplest one). 
 
 However, ONNX Runtime has taken the spotlight now.
