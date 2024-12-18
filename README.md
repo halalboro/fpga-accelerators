@@ -17,6 +17,8 @@ When it comes to developing such an accelerator on an FPGA, there are three solu
 
 **Implementation Details -** </br>
 - Xilinx KV260 SOM as the accelerator
+- Xilinx ZCU102 as the accelerator
+- Xilinx ZCU104 as the accelerator
 - Avnet Ultra96v2 as the accelerator
 - Host CPU (Linux) with a GPU for training, quantization and compilation 
 
