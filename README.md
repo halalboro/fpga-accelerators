@@ -66,3 +66,7 @@ For a brief understanding, the **DPU-PYNQ Solution on Ultra96v2** made use of th
 **The DPU Solution** highlights the use of API_1 (Simplest one). 
 
 However, ONNX Runtime has taken the spotlight now.
+
+# Custom dataset on Wildfires
+
+Link - https://universe.roboflow.com/accelerators/fire_detect-hcjt3/dataset/1
