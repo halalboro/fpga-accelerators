@@ -1,10 +1,10 @@
-# Training YOLOvx on a custom dataset
+# Training YOLOX on a custom dataset
 
-This readme will explain the process of training a YOLOvx on a custom dataset and then deploying it on your favourite FPGA board (Note - it must be a Xilinx FPGA). I will be deploying this custom-trained model on a KV260. </br>
+This readme will explain the process of training a YOLOX on a custom dataset and then deploying it on your favourite FPGA board (Note - it must be a Xilinx FPGA). I will be deploying this custom-trained model on a KV260. </br>
 
 **Preparing the dataset** </br>
 
-Get your dataset from Roboflow or Kaggle, but make sure the size is 416 x 416 x 3 (this size will work for YOLOvx). You can resize the dataset by copying it into your own project. You can do many other cool things to modify the dataset if you copy it into your project on Kaggle/Roboflow. In my case, I copied a fire detection dataset (https://universe.roboflow.com/gabrielainteli/fire_detection-ihaqe) into my project and then resized it to 416 x 416 from 640 x 640. This was to make it compatible with the Yolovx model. (https://universe.roboflow.com/accelerators/fire_detect-hcjt3)
+Get your dataset from Roboflow or Kaggle, but make sure the size is 416 x 416 x 3 (this size will work for YOLOX). You can resize the dataset by copying it into your own project. You can do many other cool things to modify the dataset if you copy it into your project on Kaggle/Roboflow. In my case, I copied a fire detection dataset (https://universe.roboflow.com/gabrielainteli/fire_detection-ihaqe) into my project and then resized it to 416 x 416 from 640 x 640. This was to make it compatible with the YOLOX model. (https://universe.roboflow.com/accelerators/fire_detect-hcjt3)
 
 Now download this dataset (COCO format) and set it up in the following structure -
   ```
@@ -30,7 +30,7 @@ Now download this dataset (COCO format) and set it up in the following structure
 
 - Now navigate to *Vitis-AI/model_zoo/model-list/pt_yolox-nano_coco_416_416_1G_3.0/model.yaml* on Vitis-AI 3.0 branch GitHub repository 
 - Download the zip file for the GPU from there or the following link (https://www.xilinx.com/bin/public/openDownload?filename=pt_yolox-nano_coco_416_416_1G_3.0.zip)
-- Launch your docker image for PyTorch (YOLOvx is a PyTorch model) from the Vitis-AI directory on your desktop.
+- Launch your docker image for PyTorch (YOLOX is a PyTorch model) from the Vitis-AI directory on your desktop.
 - Execute the following commands:
 ```
    conda activate vitis-ai-pytorch
@@ -39,7 +39,7 @@ Now download this dataset (COCO format) and set it up in the following structure
    pip install --user -v -e .
    cd ..
 ```
-- Now, with the environment setup complete, we can copy the data folder we created into the data folder inside the yolovx directory.
+- Now, with the environment setup complete, we can copy the data folder we created into the data folder inside the YOLOX directory.
 ```
 ├───code
 │   ├───assets
@@ -215,7 +215,7 @@ Now download this dataset (COCO format) and set it up in the following structure
  - Go to */root/usr/share/vitis_ai_library* and then navigate into models. If there is no models subdirectory here, create a new one.
  - Make a folder here named "yolox_nano_pt" or navigate into the existing one.
  - Now, replace the .json,.prototxt,.xmodel here with the files that you have generated earlier. (You can use scp to transfer files)
- - Navigate to */home/Vitis-AI/examples/vai_library/samples/yolovx* and follow the instructions in the readme file.
+ - Navigate to */home/Vitis-AI/examples/vai_library/samples/YOLOX* and follow the instructions in the readme file.
  - NOTE - Don't forget to change your test image as per your own dataset.
  - NOTE - Don't forget to launch a dpu application before running any of the mentioned tests in the readme file.
    ```
