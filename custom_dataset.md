@@ -157,7 +157,7 @@ Now download this dataset (COCO format) and set it up in the following structure
   MODE='test'
   python -m yolox.tools.quant -f ${CFG} -c ${CKPT} -b ${BATCH} -d ${GPU_NUM} --conf 0.001 --quant_mode ${MODE} --quant_dir ${Q_DIR}
   
-  # dump xmpdel
+  # dump xmodel
   python -m yolox.tools.quant -f ${CFG} -c ${CKPT} -b ${BATCH} -d ${GPU_NUM} --conf 0.001 --quant_mode ${MODE} --quant_dir ${Q_DIR} --is_dump
   ```
 - You can just check the *readme.md* file in the root directory of your model folder. (Steps are the same as described above)
