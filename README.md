@@ -1,4 +1,4 @@
-# FPGA-accelerators 
+# FPGA-accelerators (Not being actively maintained)
 _**A compilation of all the tools, resources and tutorials that one requires to run their hardware accelerator on an FPGA. [Not updated to the latest version of Vitis-AI Tool]**_ </br>
 
 My focus is on documenting the tool flow of developing a hardware accelerator, from training the neural network on a host CPU to detecting objects in real-time from the video feed on an FPGA. This will serve as a good starting point for all the embedded systems/ML enthusiasts who can't figure out a thing from the Vitis-AI documentation (literally me). </br>
